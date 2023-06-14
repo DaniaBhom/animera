@@ -1,0 +1,23 @@
+.navbar {
+  background-color:black;
+  color: white;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+.logo {
+  max-width: 180px;
+}
+.menu {
+  background-color: black;
+  padding-bottom: 10px;
+ 
+}
+.menu a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+.menu a :hover {
+  color: aqua;
+}
+

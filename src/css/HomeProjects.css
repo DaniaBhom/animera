@@ -1,0 +1,32 @@
+.fundoverde {
+    background-color:#00838F ;
+    
+  }
+.fundocard {
+    background-color: #FFFFFF;
+    padding-left: 10px;
+}
+.title2 {
+    color:#6a1b9a;
+    padding-left: 25px;
+  
+}
+.description2 {
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 40px;
+    color: black;
+    line-height: 30px;
+}
+
+.img2 {
+    
+    width: '600px';
+    height: '500px';
+}
+
+.button2 {
+    background-color: #00838f;
+    color: #FFFFFF;
+    margin-left: 25px;
+}

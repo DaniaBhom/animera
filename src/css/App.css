@@ -1,0 +1,26 @@
+/*
+cor1: #7986CB indigo-lighten-2
+cor1: #6A1B9A purple-darken-3
+cor2: #4A148C purple-darken-4
+cor2: #84FFFF cyan-accent-1
+cor4: #00ACC1 cyan-darken-1
+cor5: #00838F cyan-darken-3
+cor3: #1E1E1E 
+cor4: #000000
+cor5: #FFFFFF
+*/ 
+
+.background {
+  box-sizing: border-box;
+  font-weight: 520;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  padding: 0;
+  margin-top: 0px;
+}
+.headerbar {
+  height: 150px;
+  background-color: black;
+  padding: 10px;
+  margin: 0px;
+}

@@ -1,0 +1,59 @@
+.heroBlock {
+    position: relative;
+    
+}
+.card {
+    opacity: 0.8;
+    height: 550px;
+    width: 1000px;
+    }
+.title0 {
+    position: relative;
+    left: center;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 50px;
+    color:#84FFFF;
+}
+.title1 {
+    position: relative;
+    left: center;
+    top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 50px;
+    color: #84FFFF;
+}
+.title2 {
+    position: relative;
+    left: center;
+    top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 35px;
+    color:#00838F ;
+}
+.title3 {
+    position: relative;
+    left: center;
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 25px;
+    color: #cccccc;
+}
+.button1 {
+    position: relative;
+    left: center;
+    top: 55px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+    font-size: 16px;
+}

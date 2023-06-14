@@ -1,0 +1,25 @@
+.fundobranco {
+  background-color: #ffffff;
+}
+.staticHero {
+color: #ffffff;
+}
+
+.headline {
+  max-width: 767px;
+  font-size: 30px;
+  color:#ffffff;
+}
+
+.block {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: justify;
+  text-indent: 100px;
+}
+
+.button {
+  color:#6A1B9A;
+  font-size: 20px;
+  text-indent: 90px;
+}

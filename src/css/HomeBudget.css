@@ -1,0 +1,28 @@
+.fundoroxo {
+    background-color:#6a1b9a;
+  }
+  .fundobranco {
+    background-color:#FFFFFF;
+    padding-left: 10px;
+  }
+  .title4 {
+    color:#6a1b9a;
+    padding-left: 25px;
+  
+  }
+  .description4 {
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 40px;
+    color: black;
+    line-height: 30px;
+  }
+  .img1 {
+    width: '600px';
+    height: '500px';
+  }
+  .button1 {
+    background-color: #00838f;
+    color:#FFFFFF;
+    margin-left: 25px;
+  }
