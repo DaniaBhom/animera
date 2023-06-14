@@ -1,18 +1,22 @@
 <!-- eslint-disable global-require -->
 <template>
   <div class="heroBlock">
-    <v-carousel
-      
-      height="700"
-      color="#00ACC1"
-      
-    >
-      <v-carousel-item
-        v-for="(item, i) in items"
-        :key="i"
-        :src="item.src"
-        cover
+    
+      <v-carousel :show-arrows="false"
+      height="580"
+      progress= #00acc1
+      disabled="false"
       >
+        <v-carousel-item
+          v-for="(item,i) in items"
+          :key="i"
+          :src="item.src"
+          cover
+        >
+
+    
+
+    
         <v-row>
           <v-card
             class="card d-flex align-center justify-center flex-wrap text-center ma-16 ml-auto mr-auto pa-16*"
@@ -29,7 +33,6 @@
                 especialmente para o seu negócio.
                 <br />
               </p>
-              <br /><br />
               <a href="../services">
               <v-btn x-large class="button1" color="purple-darken-3">
                 <b> Acesse Agora</b>
