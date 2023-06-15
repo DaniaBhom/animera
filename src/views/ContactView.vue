@@ -29,7 +29,7 @@
           method="POST"
           @submit="contactanimera"
         >
-        <input type="hidden" name="_next" value="https://animera.netlify.app/ContactSucessView.vue" />
+        <input type="hidden" name="_next" value="http://10.0.0.102:8080/ContactSucessView.vue" />
           <div class="input-container">
             <label for="name">Nome:</label>
             <input id="name" v-model="name" type="text" name="name" />
