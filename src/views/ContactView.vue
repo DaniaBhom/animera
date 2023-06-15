@@ -1,5 +1,5 @@
 <template>
-   <v-content>
+  <v-content>
     <div>
       <v-img src="../assets/imagesAnimera/hero_/hero_2.jpg">
         <v-row align="end" class="lightbox pa-2 fill-height">
@@ -11,23 +11,51 @@
         </v-row>
       </v-img>
     </div>
-    <div class="block">
-      <v-container>
-        <v-form ref="form" v-model="valid" lazy-validation>
-          <v-text-field v-model="name" :counter="10" :rules="nameRules" label="Nome" required></v-text-field>
-          <v-text-field v-model="email" :rules="emailRules" label="E-mail" required></v-text-field>
-          <v-textarea v-model="message" :rules="messageRules" label="Mensagem" required></v-textarea>
-          <v-btn :disabled="!valid" color="#00838f" class="mr-4" @click="validate"><b>Submit</b></v-btn>
-          <v-btn color="#00838f" class="mr-4" @click="reset"><b>Reset</b></v-btn>
-        </v-form>
-      </v-container>
-    </div>
-    <div class="block">
-      <v-container>
-        <h2 class="text-center">Our Teams</h2>
-
-      </v-container>
-    </div>
+    <v-container>
+      <div class="block">
+        <br />
+        <p>
+          Entre em contato para dúvidas, sugestões ou orçamento. Teremos prazer
+          em atendê-lo. Aguarde nosso retorno!
+        </p>
+        <br />
+        <br />
+      </div>
+      <Message v-show="msg" :msg="msg" />
+      <div>
+        <form
+          id="contact"
+          action="https://formsubmit.co/db.animera@gmail.com"
+          method="POST"
+          @submit="contactanimera"
+        >
+        <input type="hidden" name="_next" value="http://animera.netlify.app/ContactSucessView.vue" />
+          <div class="input-container">
+            <label for="name">Nome:</label>
+            <input id="name" v-model="name" type="text" name="name" />
+          </div>
+          <div class="input-container">
+            <label for="email">E-mail:</label>
+            <input id="email" v-model="email" type="email" name="email" />
+          </div>
+          <div class="input-container">
+            <label for="cel">Celular:</label>
+            <input id="cel" v-model="cel" type="text" name="cel" />
+          </div>
+          <div class="input-container">
+            <label for="whatsapp">Assunto:</label>
+            <input id="subject" v-model="subject" type="text" name="subject" />
+          </div>
+          <div class="input-container">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="message" v-model="message" name="message"></textarea>
+          </div>
+          <div class="input-container">
+            <input class="submit-btn" type="submit" value="Enviar!" />
+          </div>
+        </form>
+      </div>
+    </v-container>
   </v-content>
 </template>
 
@@ -43,4 +71,4 @@ export default defineComponent({
 });
 </script>
 
-<style src="@/css/ContactView.css" lang="css" scoped></style>
+<style src="../css/ContactView.css" lang="css" scoped></style>
