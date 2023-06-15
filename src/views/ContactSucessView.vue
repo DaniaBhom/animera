@@ -1,7 +1,6 @@
 <template>
     <v-content>
-    
-      <div>
+       <div>
         <v-img src="../assets/imagesAnimera/hero_/hero_2.jpg">
           <v-row align="end" class="lightbox pa-2 fill-height">
             <v-col>
@@ -21,6 +20,7 @@
         <a href="index.html">Voltar</a>
         <br />
         <br />
+        </div>
         </v-container>
     </v-content>
   </template>
