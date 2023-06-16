@@ -11,7 +11,7 @@
         </v-row>
       </v-img>
     </div>
-    <br />
+   
     <div>
       <v-container>
         <p class="block">

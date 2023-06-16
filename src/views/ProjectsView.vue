@@ -12,7 +12,7 @@
       </v-img>
     </div>
     <v-container>
-      <br />
+     
       <div>
         <p class="block">
           <b>

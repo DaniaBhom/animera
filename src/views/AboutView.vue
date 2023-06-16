@@ -14,25 +14,25 @@
     </div>
     <div>
       <v-container>
-        <p class="block">
+        <p class="block"><b>
           A Animera Soluções Digitais é uma empresa voltada à Criação e
           Desenvolvimento de Websites, E-Commerce, Aplicações Web, Aplicativos
           Mobile e SEO(Search Engine Optimization), customizados de acordo com a sua necessidade.
-        </p>
-        <p class="block">
+        </b></p>
+        <p class="block"><b>
           A empresa foi criada em 2020, por Daniela Bohm, que atua na área de TI
           há mais de vinte anos, como professora de TI, Designer Gráfico, Web
           Designer e Desenvolvedora FullStack.
-        </p>
-        <p class="block">
+        </b></p>
+        <p class="block"><b>
           Utilizamos as melhores tecnologias do mercado no desenvolvimento
           FrontEnd e BackEnd, como Angular, Ionic, VueJs, React, PostGreSQL, MongoDB,
           Phyton e Java. Garantimos assim a máxima eficiência e velocidade no
           carregamento de seus sistemas.
-        </p>
+        </b></p>
         
-        <p class="block"><a href="../contact">Clique aqui</a> para entrar em contato e saber sobre como podemos ajudar o seu negócio.
-        </p>
+        <p class="block"><b><a href="../contact">Clique aqui</a> para entrar em contato e saber sobre como podemos ajudar o seu negócio.
+        </b></p>
        </v-container>
     </div>
     <div class="block">

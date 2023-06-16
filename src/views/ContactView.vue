@@ -11,18 +11,17 @@
         </v-row>
       </v-img>
     </div>
-    <v-container  class="block">
+    <v-container class="block">
       <div>
-        <br />
-        <p><b>
-          Entre em contato para dúvidas, sugestões ou orçamento. Teremos prazer
-          em atendê-lo. Aguarde nosso retorno!
-        </b></p>
-        <br />
-        <br />
+        <p>
+          <b>
+            Entre em contato para dúvidas, sugestões ou orçamento. Teremos
+            prazer em atendê-lo. Aguarde nosso retorno!
+          </b>
+        </p>
       </div>
-      </v-container>
-      <v-container class="form">
+    </v-container>
+    <v-container class="form">
       <Message v-show="msg" :msg="msg" />
       <div>
         <form
@@ -31,7 +30,11 @@
           method="POST"
           @submit="contactanimera"
         >
-        <input type="hidden" name="_next" value="http://10.0.0.102:8080/contactsucess" />
+          <input
+            type="hidden"
+            name="_next"
+            value="http://10.0.0.102:8080/contactsucess"
+          />
           <div class="input-container">
             <label for="name">Nome:</label>
             <input id="name" v-model="name" type="text" name="name" />
