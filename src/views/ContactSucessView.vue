@@ -17,7 +17,7 @@
         <p>
           Seu email foi enviado com sucesso. Em breve retornamos seu contato!
         </p>
-        <a href="index.html">Voltar</a>
+        <a href="/">Voltar</a>
         <br />
         <br />
         </div>
