@@ -1,7 +1,7 @@
 <template>
     <v-content>
        <div>
-        <v-img src="../assets/imagesAnimera/hero_/hero_2.jpg">
+        <v-img src="../assets/imagesAnimera/hero_/hero_1.jpg">
           <v-row align="end" class="lightbox pa-2 fill-height">
             <v-col>
               <v-container>
