@@ -11,16 +11,18 @@
         </v-row>
       </v-img>
     </div>
-    <v-container>
-      <div class="block">
+    <v-container  class="block">
+      <div>
         <br />
-        <p>
+        <p><b>
           Entre em contato para dúvidas, sugestões ou orçamento. Teremos prazer
           em atendê-lo. Aguarde nosso retorno!
-        </p>
+        </b></p>
         <br />
         <br />
       </div>
+      </v-container>
+      <v-container class="form">
       <Message v-show="msg" :msg="msg" />
       <div>
         <form
@@ -51,7 +53,7 @@
             <textarea id="message" v-model="message" name="message"></textarea>
           </div>
           <div class="input-container">
-            <input class="submit-btn" type="submit" value="Enviar!" />
+            <input class="submit-btn" type="submit" value="Enviar" />
           </div>
         </form>
       </div>

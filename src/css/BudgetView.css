@@ -11,6 +11,13 @@
     color:#ffffff;
   }
 
+  .block {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: justify;
+
+  }
+
   .pricelist {
     width: 1400px;
     height: 1000px;

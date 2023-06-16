@@ -11,15 +11,18 @@
         </v-row>
       </v-img>
     </div>
-    <div class="block">
+    <div>
       <v-container>
-        <p class="block">
+        <p class="block"><b>
           Seja encontrado por clientes no momento em que eles pesquisarem pelo
-          seu produto ou serviço na internet. Toda empresa necessita de
-          divulgação e o canal que hoje possibilita chegar a qualquer lugar é o
-          meio online. Saiba mais sobre os nossos serviços
-        </p>
-
+          seu produto ou serviço na internet.
+        </b></p>
+        <p class="block"><b>
+        Temos o produto certo para você. Desde uma Landing Page para sua campanha de marketing, seu site institucional, ou seu E-commerce, entre outros, podemos ajudar você a estar presente no meio digital aproximando a sua empresa do seu cliente. 
+        </b></p>
+        <p class="block"><b>
+        Confira abaixo nossos serviços.
+      </b></p>
         <v-sheet
           elevation="12"
           max-width="1100"
@@ -30,15 +33,15 @@
         >
           <v-container fluid>
             <v-row>
-              <v-col cols="12" md="4">
-                <v-img class="img1 pt-12" src="../assets/imagesAnimera/solutions/landingpage2.jpg" />
+              <v-col cols="12" md="5">
+                <v-img class="img1 pt-16" src="../assets/imagesAnimera/solutions/landingpage2.jpg" />
               </v-col>
 
-              <v-col cols="12" md="8">
+              <v-col cols="12" md="7">
                 <H3>Landing Page</H3>
                 <p class="block">
                   São páginas com tempo de vida útil limitado, criadas para uma
-                  campanha de vendas ou divulgação de algum produto ou serviço.
+                  campanha de vendas, captação de leads ou divulgação de algum produto ou serviço.
                   Geralmente tem grande apelo visual e identidade visual
                   próprias para cada campanha. Ajudamos você com esta importante
                   ferramenta de marketing.
@@ -58,11 +61,11 @@
         >
           <v-container fluid>
             <v-row>
-              <v-col cols="12" md="3">
+              <v-col cols="12" md="5">
                 <v-img class="img1 pt-12" src="../assets/imagesAnimera/solutions/sitesinstitucionais.jpg" />
               </v-col>
 
-              <v-col cols="12" md="9">
+              <v-col cols="12" md="7">
                 <H3>Sites Institucionais</H3>
                 <p class="block">
                   Este modelo de site é a vitrine da sua empresa. Conta a sua
@@ -89,11 +92,11 @@
         >
           <v-container fluid>
             <v-row>
-              <v-col cols="12" md="4">
+              <v-col cols="12" md="5">
                 <v-img class="img1 pt-12" src="../assets/imagesAnimera/solutions/ecommerce-web-development-1024x737.png" />
               </v-col>
 
-              <v-col cols="12" md="8">
+              <v-col cols="12" md="7">
                 <H3>E-Commerce</H3>
                 <p class="block">
                   Ter uma Loja Virtual é estar em contato com seu cliente 24 horas por
@@ -118,11 +121,11 @@
         >
           <v-container fluid>
             <v-row>
-              <v-col cols="12" md="3">
-                <v-img class="img1 pt-12" src="../assets/imagesAnimera/solutions/Dashboard.jpg" />
+              <v-col cols="12" md="5">
+                <v-img class="img1 pt-12" src="../assets/imagesAnimera/solutions/dashboard-mockup.jpg" />
               </v-col>
 
-              <v-col cols="12" md="9">
+              <v-col cols="12" md="7">
                 <H3>Sistemas Web</H3>
                 <p class="block">
                   Sistemas são criados para um grupo especifico de usuários, sejam
@@ -147,11 +150,11 @@
         >
           <v-container fluid>
             <v-row>
-              <v-col cols="12" md="3">
-                <v-img class="img1 pt-12" src="../assets/imagesAnimera/solutions/Apps2.jpg" />
+              <v-col cols="12" md="5">
+                <v-img class="img1 pt-12" src="../assets/imagesAnimera/solutions/Apps1.jpg" />
               </v-col>
 
-              <v-col cols="12" md="9">
+              <v-col cols="12" md="7">
                 <H3>App Mobile</H3>
                 <p class="block">
                   Apps Mobile Criamos aplicativos personalizados para sua empresa, de
@@ -176,11 +179,11 @@
         >
           <v-container fluid>
             <v-row>
-              <v-col cols="12" md="3">
-                <v-img class="img1 pt-12" src="../assets/imagesAnimera/solutions/SEO3.jpg" />
+              <v-col cols="12" md="5">
+                <v-img class="img1 pt-12" src="../assets/imagesAnimera/solutions/SEO.jpg" />
               </v-col>
 
-              <v-col cols="12" md="9">
+              <v-col cols="12" md="7">
                 <H3>SEO</H3>
                 <p class="block">
                   SEO Após a publicação do seu site ou e-commerce, você precisa ser

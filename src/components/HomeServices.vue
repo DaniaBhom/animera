@@ -46,7 +46,7 @@
 <script>
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
-  name: 'HomeOurSolutions',
+  name: 'HomeServices',
 
   data() {
     return {
@@ -111,4 +111,4 @@ export default {
 };
 </script>
 
-<style src="@/css/HomeOurSolutions.css" lang="css" scoped></style>
+<style src="@/css/HomeServices.css" lang="css" scoped></style>

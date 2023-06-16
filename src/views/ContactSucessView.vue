@@ -14,9 +14,9 @@
       <v-container>
       <div class="block">
         <br />
-        <p>
+        <p><b>
           Seu email foi enviado com sucesso. Em breve retornamos seu contato!
-        </p>
+        </b></p>
         <a href="/">Voltar</a>
         <br />
         <br />

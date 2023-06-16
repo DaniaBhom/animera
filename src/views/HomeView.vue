@@ -9,7 +9,7 @@
       <CardsComponent />
       <HomeAboutUs />
       <HomeProjects />
-      <HomeOurSolutions />
+      <HomeServices />
       <HomeBudget />
   </v-content>
 </template>
@@ -22,7 +22,7 @@ import HeroComponent from '../components/HeroComponent.vue';
 import CardsComponent from '../components/CardsComponent.vue';
 import HomeAboutUs from '../components/HomeAboutUs.vue';
 import HomeProjects from '../components/HomeProjects.vue';
-import HomeOurSolutions from '../components/HomeOurSolutions.vue';
+import HomeServices from '../components/HomeServices.vue';
 import HomeBudget from '../components/HomeBudget.vue';
 
 
@@ -34,7 +34,7 @@ export default defineComponent({
     CardsComponent,
     HomeAboutUs,
     HomeProjects,
-    HomeOurSolutions,
+    HomeServices,
     HomeBudget,
 },
 });

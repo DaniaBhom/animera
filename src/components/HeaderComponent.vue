@@ -43,7 +43,7 @@
           
           <v-btn color="#00FFFF">
             <router-link to="/budget">
-              <p><b>Orçamento</b></p>
+              <p><b>Planos</b></p>
             </router-link>
           </v-btn>
 

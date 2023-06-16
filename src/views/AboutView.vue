@@ -26,23 +26,13 @@
         </p>
         <p class="block">
           Utilizamos as melhores tecnologias do mercado no desenvolvimento
-          FrontEnd e BackEnd, como Angular, Ionic, Vue, React, PostGree, Mongo,
+          FrontEnd e BackEnd, como Angular, Ionic, VueJs, React, PostGreSQL, MongoDB,
           Phyton e Java. Garantimos assim a máxima eficiência e velocidade no
-          carregamento de seus sitemas.
+          carregamento de seus sistemas.
         </p>
-        <p class="block">
-          Clique abaixo para saber sobre como podemos ajudar o seu negócio.
+        
+        <p class="block"><a href="../contact">Clique aqui</a> para entrar em contato e saber sobre como podemos ajudar o seu negócio.
         </p>
-        <v-btn
-          class="button"
-          variant="text"
-        >
-          <b>
-            <a href="../contact">
-              Contato >>
-            </a>
-          </b>
-        </v-btn>
        </v-container>
     </div>
     <div class="block">
