@@ -31,7 +31,7 @@
               </h4>
               
               <p class="text-h6 text-black ml-3 mt-3">
-                Contamos com um serviço de otimização em buscadores de sites de pesquisa. Seu site precisa ser encontrado.
+                Oferecemos um serviço de otimização em buscadores de sites de pesquisa, contribuindo assim com a divulgação do seu negócio.
               </p>
             </div>
           </div>
@@ -62,7 +62,7 @@
             </h4>
             <br />
             <p class="text-h6 ml-3 mt-3">
-              Após a publicação oferecemos treinamento, atendimento a dúvidas e atualização da página, quando necessário.
+              Após a publicação oferecemos treinamento, atendimento a dúvidas, atualização da página e manutenção.
             </p>
           </div>
         </v-card>

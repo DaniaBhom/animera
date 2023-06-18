@@ -93,7 +93,7 @@
           <v-container fluid>
             <v-row>
               <v-col cols="12" md="5">
-                <v-img class="img1 pt-12" src="../assets/imagesAnimera/solutions/ecommerce-web-development-1024x737.png" />
+                <v-img class="img1 pt-12" src="../assets/imagesAnimera/solutions/ecommerce1.jpg" />
               </v-col>
 
               <v-col cols="12" md="7">

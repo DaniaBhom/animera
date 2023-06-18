@@ -9,7 +9,7 @@
             <tr style="height: 50px" align="left">
               <th rowspan="3" style="width: 800px">
                 <v-card class="mt-0">
-                  <v-img class="img1" src="../assets/imagesAnimera/about/About1.jpg" />
+                  <v-img class="img1" src="../assets/imagesAnimera/about/About_1.jpg" />
                 </v-card>
               </th>
               <th style="width: 600px">
