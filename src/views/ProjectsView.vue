@@ -16,9 +16,8 @@
       <div>
         <p class="block">
           <b>
-            Podemos desenvolver seu projeto do zero, desde a arte visual,
-            copywriter, tipografia, planejamento, execução, publicação e
-            divulgação.
+            Podemos desenvolver seu projeto do zero, desde o planejamento, mockup figma, arte visual,
+            copywriter, execução, publicação e divulgação.
           </b>
         </p>
         <p class="block">

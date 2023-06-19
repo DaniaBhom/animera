@@ -83,7 +83,7 @@ export default {
           title: 'Sistemas Web',
           subtitle: 'Subtitulo 1',
           description:
-            'Utilizando as principais tecnologias do mercado, como a SPA (Single Page Application) criamos Sistemas Web de alto desempenho, para todos os negócios.',
+            'Utilizando as principais tecnologias do mercado, como a SPA (Single Page Application), com Vue, Angular ou React, criamos Sistemas Web de alto desempenho, para todos os negócios.',
           // eslint-disable-next-line global-require
           src: require('../assets/imagesAnimera/solutions/sistemasweb2.jpg'),
         },
@@ -92,7 +92,7 @@ export default {
           title: 'APPs Mobile',
           subtitle: 'Subtitulo 3',
           description:
-            'Criação de aplicativos móveis com design moderno e funcionalidades de acordo com a necessidade da sua empresa. Traga a sua ideia de App e nós executamos.',
+            'Criação de aplicativos móveis com design moderno e funcionalidades de acordo com a necessidade da sua empresa. Se você já tem um projeto de App em mente, vamos tirá-lo do papel?',
           // eslint-disable-next-line global-require
           src: require('../assets/imagesAnimera/solutions/Apps.jpg'),
         },
