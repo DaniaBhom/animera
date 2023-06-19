@@ -1,11 +1,10 @@
 <!-- eslint-disable max-len -->
 <template>
   <div class="background">
-  <v-container >
-  
-    
+  <v-container fluid>
+      
       <v-row>
-        <v-card class="mx-auto" height="300px" width="280px" color="#1E1E1E">
+        <v-card class="mx-auto" height="320px" width="260px" color="#1E1E1E">
           <div>
             <v-icon color="purple-darken-3" x-large class="ml-3" dark>
               mdi-shopping
@@ -20,7 +19,7 @@
           </div>
         </v-card>
 
-        <v-card class="mx-auto" height="300px" width="280px" color="#84ffff">
+        <v-card class="mx-auto" height="320px" width="260px" color="#84ffff">
           <div id="project" class="first">
             <div>
               <v-icon color="purple-darken-3 darken-2" x-large class="ml-3">
@@ -37,7 +36,7 @@
           </div>
         </v-card>
 
-        <v-card class="mx-auto" height="300px" width="280px" color="#1E1E1E">
+        <v-card class="mx-auto" height="320px" width="260px" color="#1E1E1E">
           <div>
             <v-icon color="purple-darken-3" x-large class="ml-3" dark>
               mdi-shopping
@@ -52,7 +51,7 @@
           </div>
         </v-card>
 
-        <v-card class="mx-auto" height="300px" width="280px" color="#1E1E1E">
+        <v-card class="mx-auto" height="320px" width="260px" color="#1E1E1E">
           <div>
             <v-icon color="purple-darken-3" x-large class="ml-3">
               mdi-book-open-page-variant

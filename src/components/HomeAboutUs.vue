@@ -1,7 +1,7 @@
 <!-- eslint-disable max-len -->
 <template>
   <div class="fundobranco">
-    <v-container>
+    <v-container fluid>
       <br />
       <v-card flat class="fundobranco">
         <v-card-text>

@@ -1,5 +1,5 @@
 <template>
-  <v-app class="background">
+   <v-app class="background">
     <v-app-bar class="headerbar">
       <HeaderComponent />
     </v-app-bar>
@@ -10,6 +10,7 @@
       <FooterComponent />
     </v-footer>
   </v-app>
+
 </template>
 
 <script>

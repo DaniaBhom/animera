@@ -1,7 +1,7 @@
 <!-- eslint-disable global-require -->
 <template>
  <div class="fundoroxo">
-    <v-container>
+    <v-container fluid>
       <br /><br />
       <v-card flat class="fundobranco">
         <v-card-text>

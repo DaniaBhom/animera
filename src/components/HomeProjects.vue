@@ -1,7 +1,7 @@
 <!-- eslint-disable max-len -->
 <template>
   <div class="fundoverde">
-    <v-container>
+    <v-container fluid>
       <br /><br />
       <v-card flat class="fundocard">
         <v-card-text class="mt-auto">

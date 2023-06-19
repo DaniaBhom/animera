@@ -1,6 +1,6 @@
 <!-- eslint-disable max-len -->
 <template>
-  <v-content>
+  <v-content >
       <br />
       <br />
       <br />

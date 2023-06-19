@@ -1,6 +1,6 @@
 <!-- eslint-disable max-len -->
 <template>
-  <v-container>
+  <v-container fluid>
     <v-footer> 
       <v-spacer />
       <v-card flat tile class="bg-black white--text text-center">

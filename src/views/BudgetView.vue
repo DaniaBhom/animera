@@ -57,8 +57,7 @@
         </v-col>
       </v-row>
     </div>
-    <div class="block"></div>
-    <div class="block"></div>
+
   </v-content>
 </template>
 

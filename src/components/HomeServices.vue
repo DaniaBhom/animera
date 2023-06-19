@@ -1,13 +1,13 @@
 <!-- eslint-disable global-require -->
 <template>
   <div class="backgroundsolution">
-  <v-container >
+  <v-container fluid>
     
     <div class="homeoursolution">
-      <v-container class="title3">
+      <v-container fluid class="title3">
         <br />
         <H3>
-          <b>Nossas Soluções</b>
+          <b>Nossos Serviços</b>
         </H3>
         <br />
         <v-row>

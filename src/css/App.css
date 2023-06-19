@@ -11,7 +11,7 @@ cor5: #FFFFFF
 */ 
 
 .background {
-  box-sizing: border-box;
+  display:flex;
   font-weight: 520;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 25px;
