@@ -30,7 +30,7 @@
           </v-btn>
 
           <v-btn color="#00FFFF">
-            <router-link to="/about">
+            <router-link to="/about" >
               <p><b>Sobre</b></p>
             </router-link>
           </v-btn>
