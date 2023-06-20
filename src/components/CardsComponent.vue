@@ -2,8 +2,8 @@
 <template>
   <div class="background">
   <v-container fluid>
-      
-      <v-row>
+      <div></div>
+      <v-row justify="space-around">
         <v-card class="mx-auto" height="320px" width="260px" color="#1E1E1E">
           <div>
             <v-icon color="purple-darken-3" x-large class="ml-3" dark>

@@ -1,7 +1,7 @@
 <!-- eslint-disable global-require -->
 <template>
   <div class="heroBlock">
-    <v-carousel
+    <v-carousel 
       :show-arrows="false"
       height="580"
       progress="#00acc1"

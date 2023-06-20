@@ -1,6 +1,8 @@
 <template>
+  
    <v-app class="background">
     <v-app-bar class="headerbar">
+
       <HeaderComponent />
     </v-app-bar>
 

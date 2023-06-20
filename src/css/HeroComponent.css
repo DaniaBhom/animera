@@ -1,6 +1,11 @@
 .heroBlock {
     position: relative;
-    
+    width:100%;
+    }
+
+/*breakpoint - 480px(max) - celphones*/
+@media (max-width: 480px) {
+  
 }
 .card {
     opacity: 0.8;

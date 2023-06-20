@@ -1,4 +1,12 @@
 .background {
-    background-color: black;
-    height: 350px;
+   background-color: black;
+   width: auto;
+   height: auto;
+   padding: 10px;
+    }
+
+.column {
+    float: left;
+    width: 100%;
+    padding: auto;
     }
