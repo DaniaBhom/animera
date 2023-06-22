@@ -1,5 +1,7 @@
 .backgroundsolution {
   background-color: #1E1E1E;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .homeoursolution {

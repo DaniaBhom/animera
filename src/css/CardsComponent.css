@@ -1,12 +1,16 @@
 .background {
    background-color: black;
-   width: auto;
-   height: auto;
+   width: 100%;
+   max-width: 1200px;
+   height: 100%;
+   margin:auto;
    padding: 10px;
+  
+   
     }
 
 .column {
     float: left;
-    width: 100%;
+    width: 100vw;
     padding: auto;
     }

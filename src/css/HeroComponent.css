@@ -9,10 +9,12 @@
 }
 .card {
     opacity: 0.8;
-    height: 470px;
     width: 1000px;
+    height: 470px;
+    
     }
 .title0 {
+    color:#84FFFF;
     position: relative;
     left: center;
     top: 0px;
@@ -20,9 +22,10 @@
     font-weight: 600;
     font-style: bold;
     font-size: 50px;
-    color:#84FFFF;
+    
 }
 .title1 {
+    color: #84FFFF;
     position: relative;
     left: center;
     top: 0px;
@@ -30,9 +33,10 @@
     font-weight: 600;
     font-style: bold;
     font-size: 50px;
-    color: #84FFFF;
+    
 }
 .title2 {
+    color:#00838F ;
     position: relative;
     left: center;
     top: 0px;
@@ -40,9 +44,10 @@
     font-weight: 600;
     font-style: bold;
     font-size: 25px;
-    color:#00838F ;
+    
 }
 .title3 {
+    color: #cccccc;
     position: relative;
     left: center;
     top: 20px;
@@ -50,15 +55,15 @@
     font-style: bold;
     font-weight: 600;
     font-size: 25px;
-    color: #cccccc;
+  
 }
 .button1 {
     position: relative;
     left: center;
     top: 40px;
-    border-radius: 5px;
     padding: 20px;
-    text-align: center;
     align-content: center;
+    border-radius: 5px;
+    text-align: center;
     font-size: 16px;
 }
