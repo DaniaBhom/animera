@@ -2,8 +2,9 @@
 <template>
   <div class="background">
   <v-container fluid>
-      <div></div>
-      <v-row justify="space-around">
+      <div>
+      <v-row >
+       
         <v-card class="mx-auto" height="320px" width="260px" color="#1E1E1E">
           <div>
             <v-icon color="purple-darken-3" x-large class="ml-3" dark>
@@ -12,7 +13,7 @@
             <h4 class="text-h5 ml-3 mt-2">
               <b>Projetos Personalizados</b>
             </h4>
-            <br />
+            
             <p class="text-h6 ml-3 mt-3">
               Projetos personalizados para o seu negócio, com layout exclusivo e intuitivo. Com as melhores técnicas UI/UX.
             </p>
@@ -30,7 +31,7 @@
               </h4>
               
               <p class="text-h6 text-black ml-3 mt-3">
-                Oferecemos um serviço de otimização em buscadores de sites de pesquisa, contribuindo assim com a divulgação do seu negócio.
+                Oferecemos o serviço de otimização em buscadores de sites de pesquisa, para que seu site apareça em rankings de busca.
               </p>
             </div>
           </div>
@@ -65,8 +66,9 @@
             </p>
           </div>
         </v-card>
+  
       </v-row>
-      <div></div>
+      </div>
     
   
 </v-container>

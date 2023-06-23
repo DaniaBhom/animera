@@ -1,46 +1,58 @@
 <!-- eslint-disable global-require -->
 <template>
   <div class="backgroundsolution">
-  <v-container fluid>
-    
-    <div class="homeoursolution">
-      <v-container fluid class="title3">
-        <br />
-        <H3>
-          <b>Nossos Serviços</b>
-        </H3>
-        <br />
-        <v-row>
-          <v-col v-for="item in items" :key="item.id" cols="4">
-            <v-card class="mx-auto" elevation="8">
-              <v-img height="250px" :src="item.src" />
-              <v-card-title class="vcardtitle">
-                <div>{{ item.title }}</div>
-              </v-card-title>
-              <v-card-text class="description">
-                <div>
-                  <p><b>
-                    {{ item.description }}
-                  </b></p>
-                </div>
-              </v-card-text>
-            </v-card>
-          </v-col>
-        </v-row>
-        <br />
-        <v-card-actions align="center">
-          <a href="/services">
-          <v-btn color="#84FFFF" text>
-            <H2><b>Saiba Mais ></b></H2>
-          </v-btn>
-          </a>
-        </v-card-actions>
-      </v-container>
-    </div>
-  <br/>
-  <br/>
-  </v-container>
-</div>
+    <v-container fluid>
+      <div class="homeoursolution">
+        <v-container fluid class="title3">
+          <br />
+          <H3>
+            <b>Nossos Serviços</b>
+          </H3>
+          <br />
+          <v-row>
+            <v-col
+            class="mx-auto"
+              v-for="item in items"
+              :key="item.id"
+              cols="8"
+              md="4"
+              sm="6"
+              xs="8"
+            >
+              <v-card elevation="8">
+                <v-img height="50%" :src="item.src" />
+
+                <v-card-title class="vcardtitle">
+                  <div>{{ item.title }}</div>
+                </v-card-title>
+
+                <v-card-text class="description">
+                  <div>
+                    <p>
+                      <b>
+                        {{ item.description }}
+                      </b>
+                    </p>
+                  </div>
+                </v-card-text>
+
+                <v-card-actions>
+                  <a href="/services">
+                    <v-btn color="#84FFFF" text>
+                      <b>Saiba Mais</b>
+                    </v-btn>
+                  </a>
+                </v-card-actions>
+              </v-card>
+            </v-col>
+          </v-row>
+          <br />
+        </v-container>
+      </div>
+      <br />
+      <br />
+    </v-container>
+  </div>
 </template>
 
 <script>

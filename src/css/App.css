@@ -13,7 +13,7 @@ cor5: #FFFFFF
   box-sizing: border-box;
 }
 .background {
-  display: flex;
+display: flex;  
   align-items: center;
   justify-content:space-between;
   width: 100%;
@@ -22,7 +22,7 @@ cor5: #FFFFFF
   padding: 0;
   font-weight: 520px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 14px;
+  font-size: 24px;
   
   
 }
