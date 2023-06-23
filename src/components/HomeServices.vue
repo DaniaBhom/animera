@@ -11,14 +11,15 @@
           <br />
           <v-row>
             <v-col
-            class="mx-auto"
+            
               v-for="item in items"
               :key="item.id"
-              cols="8"
+              class="mx-auto"
+              cols="12"
               md="4"
               sm="6"
-              xs="8"
-            >
+              
+              >
               <v-card elevation="8">
                 <v-img height="50%" :src="item.src" />
 
@@ -38,7 +39,7 @@
 
                 <v-card-actions>
                   <a href="/services">
-                    <v-btn color="#84FFFF" text>
+                    <v-btn color="#84FFFF" variant="flat">
                       <b>Saiba Mais</b>
                     </v-btn>
                   </a>
