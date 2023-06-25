@@ -1,9 +1,9 @@
 <!-- eslint-disable global-require -->
-<template>
-  <div class="backgroundsolution">
-    <v-container fluid>
-      <div class="homeoursolution">
-        <v-container fluid class="title3">
+<template >
+  <div >
+    <v-container fluid class="backgroundservices">
+      <div >
+        <v-container class="title3">
           <br />
           <H3>
             <b>Nossos Serviços</b>
@@ -18,10 +18,11 @@
               cols="12"
               md="4"
               sm="6"
+              xs="8"
               
               >
-              <v-card elevation="8">
-                <v-img height="50%" :src="item.src" />
+              <v-card class="vcard" elevation="8">
+                <v-img class="imageservices" :src="item.src" />
 
                 <v-card-title class="vcardtitle">
                   <div>{{ item.title }}</div>
@@ -47,11 +48,10 @@
               </v-card>
             </v-col>
           </v-row>
-          <br />
+   
         </v-container>
       </div>
-      <br />
-      <br />
+    
     </v-container>
   </div>
 </template>

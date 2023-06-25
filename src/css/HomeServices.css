@@ -1,34 +1,50 @@
-.backgroundsolution {
+
+
+.backgroundservices {
   background-color: #1E1E1E;
   width: 100%;
   max-width: 1200px;
+  height: 100%;
 }
 
-.homeoursolution {
-    background-color: #1E1E1E;
-    
-    
-  }
-  
+.imageservices {
+  width: 100%;
+  max-width: 1100px;
+
+}  
+
+.vcard {
+  background-color: white;
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  padding: auto;
+}
   .title3 {
     color:#84FFFF;
+    width: 100%;
+  
     text-align: center;
-    padding: 0 0 10px;
-    margin: 0 0 40px;
+    padding: auto;
+    margin: auto;
     position: relative;
   }
 
   .vcardtitle {
     background-color: #6a1b9a;
+    width: 100%;
+  max-width: 1100px;
     text-align: center;
     color: #84FFFF;
   }
 
   .description {
+    background-color: white;
+    width: 100%;
+    max-width: 1100px;
     font-size: 20px;
     text-align: justify;
     text-indent: 40px;
-    background-color: white;
     color: black;
     line-height: 25px;
     padding: 20px 30px 20px 30px;

@@ -1,7 +1,10 @@
-.fundoroxo {
+/*Responsividade - sm- lg - Tablet-Laptop */
+.container_lg {
     background-color:#6a1b9a;
+    height: 100%;
   }
-  .fundobranco {
+
+  .fundocard {
     background-color:#FFFFFF;
     padding-left: 10px;
   }
@@ -11,10 +14,10 @@
   
   }
   .description4 {
+    color: black;
     font-size: 20px;
     text-align: justify;
     text-indent: 40px;
-    color: black;
     line-height: 30px;
   }
   .img1 {
@@ -25,4 +28,42 @@
     background-color: #00838f;
     color:#FFFFFF;
     margin-left: 25px;
+    width: 100%;
+  max-width: 150px;
   }
+
+  /*Responsividade - xs - 480px - Mobile*/
+
+.container_xs {
+  background-color: #ffffff;
+  margin: auto;
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+}
+
+.title_xs {
+  color: #6a1b9a;
+  text-align: center;
+  font-size: 50px;
+}
+
+.description_xs {
+  color: black;
+  margin: 30px;
+  padding: 30px;
+  font-size: 40px;
+  text-align: justify;
+  text-indent: 40px;
+  line-height: 50px;
+}
+
+.button_xs {
+  background-color: #00838f;
+  color: #ffffff;
+  margin: auto;
+  width: 100%;
+  max-width: 300px;
+  height: 50px;
+  font-size: 25px;
+}
