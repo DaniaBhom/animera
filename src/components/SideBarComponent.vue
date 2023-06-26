@@ -1,65 +1,55 @@
 <template>
-<div class="d-flex d-sm-none">
-  <v-layout class="overflow-visible" style="height: 56px;">
-    <v-bottom-navigation
-    
-      v-model="value"
-      
-      heigth="200px"
-      mode="shift"
-    >
-      <v-btn width="150px" >
-        <v-icon color="#00FFFF">mdi-book</v-icon>
-        <span>Home</span>
-      </v-btn>
+  <div class="bar">
+<v-toolbar class="menu d-flex d-sm-none">
+  <v-toolbar-items>
+    <v-btn color="#00FFFF">
+      <router-link to="/">
+        <H1 style="color: #00ffff"><b>Home</b></H1>
+      </router-link>
+    </v-btn>
 
-      <v-btn width="150px" >
-        <v-icon color="#00FFFF">mdi-book</v-icon>
+    <v-btn color="#00FFFF">
+      <router-link to="/about">
+        <H1><b>Sobre</b></H1>
+      </router-link>
+    </v-btn>
 
-        <span>About</span>
-      </v-btn>
+    <v-btn color="#00FFFF">
+      <router-link to="/services">
+        <H1><b>Serviços</b></H1>
+      </router-link>
+    </v-btn>
 
-      <v-btn width="150px" >
-        <v-icon color="#00FFFF">mdi-book</v-icon>
+    <v-btn color="#00FFFF">
+      <router-link to="/budget">
+        <H1><b>Planos</b></H1>
+      </router-link>
+    </v-btn>
 
-        <span>Services</span>
-      </v-btn>
+    <v-btn color="#00FFFF">
+      <router-link to="/projects">
+        <H1><b>Projetos</b></H1>
+      </router-link>
+    </v-btn>
 
-      <v-btn width="150px" >
-        <v-icon color="#00FFFF">mdi-book</v-icon>
-
-        <span>Projects</span>
-      </v-btn>
-      <v-btn width="150px" >
-        <v-icon color="#00FFFF">mdi-book</v-icon>
-
-        <span>Budget</span>
-      </v-btn>
-      <v-btn width="150px" >
-        <v-icon color="#00FFFF">mdi-book</v-icon>
-
-        <span>Contact</span>
-      </v-btn>
-    </v-bottom-navigation>
-  </v-layout>
+    <v-btn color="#00FFFF">
+      <router-link to="/contact">
+        <H1><b>Contato</b></H1>
+      </router-link>
+    </v-btn>
+  </v-toolbar-items>
+</v-toolbar>
 </div>
 </template>
-
-
 <script>
   export default {
-    data: () => ({ value: 1 }),
+    // eslint-disable-next-line vue/multi-word-component-names
+    name: 'SideBarComponent',
+    data: () => ({
+      
+    }),
+  };
+  </script>
+  
+  <style src="@/css/SideBarComponent.css" lang="css" scoped></style>
 
-    computed: {
-      color () {
-        switch (this.value) {
-          case 0: return 'blue-grey'
-          case 1: return 'teal'
-          case 2: return 'brown'
-          case 3: return 'indigo'
-          default: return 'blue-grey'
-        }
-      },
-    },
-  }
-</script>
