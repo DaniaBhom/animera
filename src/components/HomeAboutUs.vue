@@ -2,7 +2,7 @@
 <template>
   <div class="d-none d-sm-flex">
     <v-container fluid class="container_lg">
-      <br />
+      <br/>
       <v-card flat class="container_lg">
         <v-card-text>
           <table style="width: 100%" border="0px solid white">

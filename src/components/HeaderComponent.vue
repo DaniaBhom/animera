@@ -1,36 +1,35 @@
 <template>
   <v-container fluid>
-    <v-toolbar class="navbar">
-      
-      <v-toolbar-title>
-        <router-link to="/">
-          <v-img class="logo" src="../assets/imagesAnimera/logo/logo_site.png" />
-        </router-link>
-      </v-toolbar-title>
-
-      <v-spacer />
-
-      <v-btn text> <v-icon>mdi-whatsapp</v-icon> +55 27 99706-9915 </v-btn>
-      <v-btn text> POR </v-btn>
-      <v-btn text> EN </v-btn>
-      <v-app-bar-nav-icon />
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>
-
-    </v-toolbar>
-
-    <v-toolbar class="menu">
-      <v-spacer></v-spacer>
-        <v-toolbar-items>        
+    <div>
+      <v-toolbar class="navbar d-none d-sm-flex">
+        <v-toolbar-title>
+          <router-link to="/">
+            <v-img
+              class="logo"
+              src="../assets/imagesAnimera/logo/logo_site.png"
+            />
+          </router-link>
+        </v-toolbar-title>
+        <v-spacer />
+        <v-btn text> <v-icon>mdi-whatsapp</v-icon> +55 27 99706-9915 </v-btn>
+        <v-btn text> POR </v-btn>
+        <v-btn text> EN </v-btn>
+        <v-app-bar-nav-icon />
+        <v-btn icon>
+          <v-icon>mdi-magnify</v-icon>
+        </v-btn>
+      </v-toolbar>
+      <v-toolbar class="menu d-none d-sm-flex">
+        <v-spacer></v-spacer>
+        <v-toolbar-items>
           <v-btn color="#00FFFF">
             <router-link to="/">
-              <p style="color: #00FFFF"><b>Home</b></p>
+              <p style="color: #00ffff"><b>Home</b></p>
             </router-link>
           </v-btn>
 
           <v-btn color="#00FFFF">
-            <router-link to="/about" >
+            <router-link to="/about">
               <p><b>Sobre</b></p>
             </router-link>
           </v-btn>
@@ -40,7 +39,7 @@
               <p><b>Serviços</b></p>
             </router-link>
           </v-btn>
-          
+
           <v-btn color="#00FFFF">
             <router-link to="/budget">
               <p><b>Planos</b></p>
@@ -59,7 +58,36 @@
             </router-link>
           </v-btn>
         </v-toolbar-items>
-    </v-toolbar>
+      </v-toolbar>
+    </div>
+    <div>
+      <v-toolbar class="navbar_xs d-flex d-sm-none">
+        <v-toolbar-title>
+          <router-link to="/">
+            <v-img
+              class="logo_xs"
+              src="../assets/imagesAnimera/logo/logo_site.png"
+            />
+          </router-link>
+        </v-toolbar-title>
+        <v-spacer />
+        <div class="hidden-sm-and-up">
+          <v-menu open-on-over>
+            <template v-slot:activator="{ props }">
+              <v-btn color="white" v-bind="props">Dropdown</v-btn>
+            </template>
+            <v-list bg-color="white" color="black">
+              <v-list-item>
+              <v-list-item-title><router-link to="/">Home</router-link></v-list-item-title>
+              <v-list-item-title><router-link to="/about">Sobre</router-link></v-list-item-title>
+              <v-list-item-title><router-link to="/services">Serviços</router-link></v-list-item-title>  
+              </v-list-item>
+            </v-list>
+          </v-menu>
+        </div>
+  
+      </v-toolbar>
+    </div>
   </v-container>
 </template>
 
@@ -67,7 +95,9 @@
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'HeaderComponent',
-  data: () => ({}),
+  data: () => ({
+    
+  }),
 };
 </script>
 
