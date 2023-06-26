@@ -5,6 +5,7 @@
       <br />
       <br />
       <br />
+      <SideBarComponent />
       <HeroComponent />
       <CardsComponent />
       <HomeAboutUs />
@@ -24,6 +25,7 @@ import HomeAboutUs from '../components/HomeAboutUs.vue';
 import HomeProjects from '../components/HomeProjects.vue';
 import HomeServices from '../components/HomeServices.vue';
 import HomeBudget from '../components/HomeBudget.vue';
+import SideBarComponent from '../components/SideBarComponent.vue';
 
 
 export default defineComponent({
@@ -36,6 +38,7 @@ export default defineComponent({
     HomeProjects,
     HomeServices,
     HomeBudget,
+    SideBarComponent,
 },
 });
 </script>
