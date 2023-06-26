@@ -71,21 +71,40 @@
           </router-link>
         </v-toolbar-title>
         <v-spacer />
-        <div class="hidden-sm-and-up">
-          <v-menu open-on-over>
-            <template v-slot:activator="{ props }">
-              <v-btn color="white" v-bind="props">Dropdown</v-btn>
-            </template>
-            <v-list bg-color="white" color="black">
-              <v-list-item>
-              <v-list-item-title><router-link to="/">Home</router-link></v-list-item-title>
-              <v-list-item-title><router-link to="/about">Sobre</router-link></v-list-item-title>
-              <v-list-item-title><router-link to="/services">Serviços</router-link></v-list-item-title>  
-              </v-list-item>
-            </v-list>
-          </v-menu>
-        </div>
-  
+
+       <v-card>
+          <div class="d-flex d-sm-none">
+            <v-btn>
+              <H1>Menu</H1>
+        
+              <v-overlay
+                position="right"
+                activator="parent"
+                location-strategy="static"
+                location="bottom-end"
+                scroll-strategy="reposition"
+              >
+                <v-card color="acqua" width="200px"  class="mx-auto pa-2">
+                  <H1>Home</H1>
+                </v-card>
+                <v-card color="white" class="pa-2">
+                  <H1>About</H1>
+                </v-card>
+                <v-card color="white" class="pa-2">
+                  <H1>Services</H1>
+                </v-card>
+                <v-card color="white" width="200px" align-self="right" class="pa-2">
+                  <H1>Products</H1>
+                </v-card>
+                <v-card color="white" width="200px" align-self="right" class="pa-2">
+                  <H1>Contact</H1>
+                </v-card>
+
+              </v-overlay>
+            </v-btn>
+          </div>
+        </v-card>
+        
       </v-toolbar>
     </div>
   </v-container>
