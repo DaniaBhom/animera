@@ -12,8 +12,9 @@ cor5: #FFFFFF
 * {
   box-sizing: border-box;
 }
+
 .background {
-display: flex;  
+  display: flex;  
   align-items: center;
   justify-content:space-between;
   width: 100%;
@@ -23,9 +24,8 @@ display: flex;
   font-weight: 520px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 24px;
-  
-  
 }
+
 .headerbar {
   display: flex;
   align-items: center;
@@ -33,31 +33,32 @@ display: flex;
   margin: auto;
   padding: 10px;
   width: 100%;
-  height: 150px;
+  height: 100%;
+  max-height: 150px;
   background-color: black;
  }
 
 /*breakpoint - 480px(max) - celphones*/
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
    
-}
+}*/
 
 /*breakpoint - 480px - 768px - tablet*/
-@media (min-width: 480px) {
+/*@media (min-width: 480px) {
  
-}
+}*/
 
 /*breakpoint - 768px - 1024px - small screen or smaller laptops*/
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
 
-}
+}*/
 
 /*breakpoint - 1024px - 1200px - desktop*/
-@media (min-width: 1024px) {
+/*@media (min-width: 1024px) {
 
-}
+}*/
 
 /*breakpoint - 1200px telas maiores, tvs*/
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
 
-}
+}*/

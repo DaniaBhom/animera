@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container>
     <div>
       <v-toolbar class="navbar d-none d-sm-flex">
         <v-toolbar-title>
@@ -70,41 +70,8 @@
             />
           </router-link>
         </v-toolbar-title>
-        <v-spacer />
 
-       <v-card>
-          <div class="d-flex d-sm-none">
-            <v-btn>
-              <H1>Menu</H1>
-        
-              <v-overlay
-                position="right"
-                activator="parent"
-                location-strategy="static"
-                location="bottom-end"
-                scroll-strategy="reposition"
-              >
-                <v-card color="acqua" width="200px"  class="mx-auto pa-2">
-                  <H1>Home</H1>
-                </v-card>
-                <v-card color="white" class="pa-2">
-                  <H1>About</H1>
-                </v-card>
-                <v-card color="white" class="pa-2">
-                  <H1>Services</H1>
-                </v-card>
-                <v-card color="white" width="200px" align-self="right" class="pa-2">
-                  <H1>Products</H1>
-                </v-card>
-                <v-card color="white" width="200px" align-self="right" class="pa-2">
-                  <H1>Contact</H1>
-                </v-card>
 
-              </v-overlay>
-            </v-btn>
-          </div>
-        </v-card>
-        
       </v-toolbar>
     </div>
   </v-container>
