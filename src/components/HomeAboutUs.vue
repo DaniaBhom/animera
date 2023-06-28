@@ -48,11 +48,11 @@
 
             <tr style="height: 50px" align="left">
               <td>
-                <a href="../about">
+                <router-link to="/about">
                   <v-btn class="button1">
                     <b> Saiba Mais </b>
                   </v-btn>
-                </a>
+                </router-link>
               </td>
             </tr>
           </table>
