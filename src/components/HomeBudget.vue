@@ -41,11 +41,11 @@
 
             <tr style="height: 50px" align="left">
               <td>
-                <a href="/budget">
+                <router-link to="/budget">
                 <v-btn class="button1">
                   <b> Saiba Mais </b>
                 </v-btn>
-                </a>
+              </router-link>
               </td>
               
             </tr>

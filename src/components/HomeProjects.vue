@@ -46,11 +46,11 @@
 
             <tr style="height: 50px" align="left">
               <td>
-                <a href="../projects">
+                <router-link to="/projects">
                   <v-btn class="button2">
                     <b> Saiba Mais </b>
                   </v-btn>
-                </a>
+                </router-link>
               </td>
             </tr>
           </table>
@@ -97,11 +97,11 @@
           </tr>
           <tr align="center">
             <td>
-              <a href="../projects">
+              <router-link to="/projects">
                 <v-btn class="button_xs">
                   <b> Saiba Mais </b>
                 </v-btn>
-              </a>
+              </router-link>
             </td>
           </tr>
         </table>

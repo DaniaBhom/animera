@@ -39,11 +39,11 @@
                 </v-card-text>
 
                 <v-card-actions>
-                  <a href="/services">
+                  <router-link to="/services">
                     <v-btn color="#84FFFF" variant="flat">
                       <b>Saiba Mais</b>
                     </v-btn>
-                  </a>
+                  </router-link>
                 </v-card-actions>
               </v-card>
             </v-col>
