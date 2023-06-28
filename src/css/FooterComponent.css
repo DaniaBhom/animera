@@ -26,16 +26,25 @@
   color:#84ffff;
 }
 
-.logo_xs {
-  width: 500px;
-  margin-right: 300px;
-  margin-left: 300px;
+.font3 {
+  width: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+  margin: auto;
 }
 
 .copy {
-  width: 800px;
+ 
+  width: 1200px;
   color: white;
-  font-size: 22px;
+  font-size: 25px;
   margin: auto;
+}
+
+.logo_xs {
+  width: 100%;
+  max-width: 250px;
+  margin-right: 0;
 }
 

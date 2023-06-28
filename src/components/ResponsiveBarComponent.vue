@@ -10,31 +10,31 @@
 
     <v-btn color="#00FFFF">
       <router-link to="/about">
-        <H1><b>Sobre</b></H1>
+        <H2><b>Sobre</b></H2>
       </router-link>
     </v-btn>
 
     <v-btn color="#00FFFF">
       <router-link to="/services">
-        <H1><b>Serviços</b></H1>
+        <H2><b>Serviços</b></H2>
       </router-link>
     </v-btn>
 
     <v-btn color="#00FFFF">
       <router-link to="/budget">
-        <H1><b>Planos</b></H1>
+        <H2><b>Planos</b></H2>
       </router-link>
     </v-btn>
 
     <v-btn color="#00FFFF">
       <router-link to="/projects">
-        <H1><b>Projetos</b></H1>
+        <H2><b>Projetos</b></H2>
       </router-link>
     </v-btn>
 
     <v-btn color="#00FFFF">
       <router-link to="/contact">
-        <H1><b>Contato</b></H1>
+        <H2><b>Contato</b></H2>
       </router-link>
     </v-btn>
   </v-toolbar-items>
