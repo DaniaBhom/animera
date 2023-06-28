@@ -26,3 +26,16 @@
   color:#84ffff;
 }
 
+.logo_xs {
+  width: 500px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+.copy {
+  width: 800px;
+  color: white;
+  font-size: 22px;
+  margin: auto;
+}
+

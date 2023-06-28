@@ -1,5 +1,6 @@
 <template>
   <v-content>
+
     <div>
       <v-img src="../assets/imagesAnimera/hero_/hero_1.jpg">
         <v-row align="end" class="lightbox pa-2 fill-height">
@@ -64,13 +65,13 @@
 <script>
 import { defineComponent } from 'vue';
 
+
 // Components
 
 export default defineComponent({
   name: 'BudgetView',
 
-  components: {},
-
+ 
   data: () => ({
     show: false,
     items: [

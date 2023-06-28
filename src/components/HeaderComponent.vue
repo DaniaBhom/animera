@@ -70,17 +70,29 @@
             />
           </router-link>
         </v-toolbar-title>
+      </v-toolbar>
 
-
+      <v-toolbar class="menu d-flex d-sm-none">
+        <v-spacer></v-spacer>
+   
+        <ResponsiveBarComponent />
       </v-toolbar>
     </div>
   </v-container>
 </template>
 
 <script>
+import ResponsiveBarComponent from './ResponsiveBarComponent.vue';
+
+
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'HeaderComponent',
+
+  components: {
+    ResponsiveBarComponent,
+  },
+
   data: () => ({
     
   }),

@@ -1,15 +1,13 @@
 .bar {
     background-color: black;
+    margin-right: 100px;
 }
 
 .menu {
     background-color: rgb(0, 0, 0);
-   
     width: 100%;
     max-width: 1000px;
-    margin: auto;
-    padding: auto;
-    font-size: 50px;
+    font-size: 45px;
        
   }
   .menu a {

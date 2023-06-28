@@ -4,7 +4,7 @@
   <v-toolbar-items>
     <v-btn color="#00FFFF">
       <router-link to="/">
-        <H1 style="color: #00ffff"><b>Home</b></H1>
+        <H2 style="color: #00ffff"><b>Home</b></H2>
       </router-link>
     </v-btn>
 
@@ -44,12 +44,12 @@
 <script>
   export default {
     // eslint-disable-next-line vue/multi-word-component-names
-    name: 'SideBarComponent',
+    name: 'ResponsiveBarComponent',
     data: () => ({
       
     }),
   };
   </script>
   
-  <style src="@/css/SideBarComponent.css" lang="css" scoped></style>
+  <style src="@/css/ResponsiveBarComponent.css" lang="css" scoped></style>
 

@@ -6,7 +6,8 @@
       <HeaderComponent />
       
     </v-app-bar>
-    
+   
+
     <router-view />
 
     <v-footer>
@@ -27,6 +28,8 @@ export default {
   components: {
     HeaderComponent,
     FooterComponent,
+ 
+    
   },
 };
 </script>

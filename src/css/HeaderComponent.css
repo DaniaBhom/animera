@@ -46,9 +46,11 @@
 }
 
 .logo_xs {
-  margin: auto;
+  margin-top: 50px;
+  margin-right:auto;
+margin-left: auto;
   width: 100%;
-  max-width: 400px;
+  max-width: 350px;
 
 }
 
