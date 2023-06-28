@@ -29,11 +29,11 @@
                 especialmente para o seu negócio.
                 <br />
               </p>
-              <a href="../services">
+              <router-link to="/services">
                 <v-btn x-large class="button1" color="purple-darken-3">
                   <b> Acesse Agora</b>
                 </v-btn>
-              </a>
+              </router-link>
             </div>
 
           </v-card>
