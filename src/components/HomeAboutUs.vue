@@ -100,11 +100,11 @@
         </tr>
         <tr align="center">
           <td>
-            <a href="../about">
+            <router-link to="/about">
               <v-btn class="button_xs">
                 <b> Saiba Mais </b>
               </v-btn>
-            </a>
+            </router-link>
           </td>
         </tr>
 

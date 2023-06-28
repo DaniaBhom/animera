@@ -90,11 +90,11 @@
           </tr>
           <tr align="center">
             <td>
-              <a href="../projects">
+              <router-link to="/budget">
                 <v-btn class="button_xs">
                   <b> Saiba Mais </b>
                 </v-btn>
-              </a>
+              </router-link>
             </td>
           </tr>
         </table>
