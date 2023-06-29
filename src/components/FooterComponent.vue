@@ -70,9 +70,9 @@
           </table>
         </v-card-text>
         <v-divider/>
-        <v-card-text class="white--text d-none d-sm-flex ">
-          <strong>Copyright©</strong> {{ new Date().getFullYear() }} —
-          <strong>Animera Soluções Digitais</strong>
+        <v-card-text class="copy white--text d-none d-sm-flex ">
+          <strong>Copyright © </strong>  {{ new Date().getFullYear() }} — 
+          <strong> Animera Soluções Digitais</strong>
         </v-card-text>
 
         

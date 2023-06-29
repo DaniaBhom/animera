@@ -18,12 +18,12 @@ cor5: #FFFFFF
   align-items: center;
   justify-content:space-between;
   width: 100%;
-  width: 1200px;
+  max-width: 1280px;
   margin: auto;
   padding: 0;
   font-weight: 520px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 .headerbar {

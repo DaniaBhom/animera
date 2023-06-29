@@ -15,7 +15,7 @@
       >
         <v-row class="d-none d-sm-flex">
           <v-card
-            class="card d-flex align-center justify-center flex-wrap text-center ma-16 ml-auto mr-auto pa-16*"
+            class="card d-flex align-center justify-center flex-wrap text-center ma-10 ml-auto mr-auto pa-16*"
             background-color="black"
             elevation="4"
           >

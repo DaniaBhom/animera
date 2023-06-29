@@ -8,7 +8,7 @@
   .headline {
     width: 100%;  
     max-width: 767px;
-    font-size: 30px;
+    font-size: 2.5rem;
     color:#ffffff;
   }
 
@@ -16,6 +16,9 @@
     margin-top: 50px;
     margin-bottom: 30px;
     text-align: justify;
+    font-size: 1.6rem;
+  text-indent: 4.0rem;
+  line-height: 2.5rem;
 
   }
 

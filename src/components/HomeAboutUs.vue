@@ -26,7 +26,7 @@
               <td>
                 <v-card variant="outlined" class="fundobranco" max-width="500">
                   <v-card-text flat class="description1">
-                    <b>
+                    
                       <p>
                         A Animera Soluções Digitais é uma empresa de criação de
                         sites profissionais, aplicações web e aplicativos. Nós
@@ -40,7 +40,7 @@
                         entregar produtos especialmente criados para a sua
                         marca, com design moderno e com as melhores tecnologias.
                       </p>
-                    </b>
+                    
                   </v-card-text>
                 </v-card>
               </td>
@@ -82,7 +82,7 @@
         </tr>
         <tr>
           <td class="description_xs" style="width: 800px">
-            <b>
+           
               <p>
                 A Animera Soluções Digitais é uma empresa de criação de sites
                 profissionais, aplicações web e aplicativos. Nós projetamos,
@@ -95,7 +95,7 @@
                 produtos especialmente criados para a sua marca, com design
                 moderno e com as melhores tecnologias.
               </p>
-            </b>
+          
           </td>
         </tr>
         <tr align="center">

@@ -60,9 +60,12 @@
                   mdi-shopping
                 </v-icon>
                 <h4 class="text-h5 ml-3 mr-3 mt-2">
-                  <b>Sites Responsivos</b>
+                  <b>Sites</b>
                 </h4>
-                <br />
+                <h4 class="text-h5 ml-3 mr-3 mt-2">
+                  <b>Responsivos</b>
+                </h4>
+           
                 <p class="text-h6 ml-3 mt-3">
                   Desenvolvemos sites que podem ser acessados de qualquer
                   dispositivo com toda a qualidade e velocidade.
@@ -81,9 +84,12 @@
                   mdi-book-open-page-variant
                 </v-icon>
                 <h4 class="text-h5 ml-3 mt-2">
-                  <b>Assistência Técnica </b>
+                  <b>Assistência </b>
                 </h4>
-                <br />
+                <h4 class="text-h5 ml-3 mt-2">
+                  <b>Técnica </b>
+                </h4>
+               
                 <p class="text-h6 ml-3 mt-3">
                   Após a publicação oferecemos treinamento, atendimento a
                   dúvidas, atualização da página e manutenção.

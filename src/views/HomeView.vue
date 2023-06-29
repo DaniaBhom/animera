@@ -1,11 +1,6 @@
 <!-- eslint-disable max-len -->
 <template>
   <v-content >
-      <br />
-      <br />
-      <br />
-      <br />
-     
       <HeroComponent />
       <CardsComponent />
       <HomeAboutUs />

@@ -25,7 +25,7 @@
               <td>
                 <v-card variant="outlined" class="fundocard" max-width="500">
                   <v-card-text flat class="description4">
-                    <b>
+                 
                       <p>
                         Temos diversos planos que atendem projetos essenciais e avançados. Mas também olhamos para a necessidade particular da sua empresa.
                       </p>
@@ -33,7 +33,7 @@
                       <p>
                         Caso tenha necessidades extras, como criação de logo ou identidade visual, e tráfego pago, oferecemos estes serviços separadamente. Entre em contato para fazer um orçamento personalizado.
                       </p>
-                    </b>
+                
                   </v-card-text>
                 </v-card>
               </td>

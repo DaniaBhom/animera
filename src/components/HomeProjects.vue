@@ -26,7 +26,7 @@
               <td>
                 <v-card variant="outlined" class="fundocard" max-width="500">
                   <v-card-text flat class="description2">
-                    <b>
+                    
                       <p>
                         A Animera é uma empresa recente, mas conta com
                         experiência de desenvolvimento, de mais de vinte anos,
@@ -38,7 +38,7 @@
                         podemos fazer pelo seu negócio.
                       </p>
                       <br />
-                    </b>
+                  
                   </v-card-text>
                 </v-card>
               </td>
@@ -81,7 +81,7 @@
           </tr>
           <tr>
             <td class="description_xs" style="width: 800px">
-              <b>
+           
                 <p>
                   A Animera é uma empresa recente, mas conta com experiência de
                   desenvolvimento, de mais de vinte anos, no mercado de design,
@@ -92,7 +92,7 @@
                   Conheça alguns dos projetos já desenvolvidos. E o que podemos
                   fazer pelo seu negócio.
                 </p>
-              </b>
+        
             </td>
           </tr>
           <tr align="center">

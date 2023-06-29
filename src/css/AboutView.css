@@ -7,7 +7,7 @@ color: #ffffff;
 
 .headline {
   max-width: 767px;
-  font-size: 30px;
+  font-size: 2.5rem;
   color:#ffffff;
 }
 
@@ -15,11 +15,14 @@ color: #ffffff;
   margin-top: 50px;
   margin-bottom: 30px;
   text-align: justify;
+  font-size: 1.6rem;
+  text-indent: 4.0rem;
+  line-height: 2.5rem;
 
 }
 
 .button {
   color:#6A1B9A;
-  font-size: 20px;
-  text-indent: 90px;
+  font-size: 2.0rem;
+  text-indent: 9.0rem;
 }

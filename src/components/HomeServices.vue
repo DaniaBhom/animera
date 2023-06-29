@@ -5,9 +5,9 @@
       <div >
         <v-container class="title3">
           <br />
-          <H3>
+          <H1>
             <b>Nossos Serviços</b>
-          </H3>
+          </H1>
           <br />
           <v-row>
             <v-col
@@ -31,16 +31,16 @@
                 <v-card-text class="description">
                   <div>
                     <p>
-                      <b>
+                     
                         {{ item.description }}
-                      </b>
+                      
                     </p>
                   </div>
                 </v-card-text>
 
-                <v-card-actions>
+                <v-card-actions >
                   <router-link to="/services">
-                    <v-btn color="#84FFFF" variant="flat">
+                    <v-btn class="buttoncard" variant="flat">
                       <b>Saiba Mais</b>
                     </v-btn>
                   </router-link>

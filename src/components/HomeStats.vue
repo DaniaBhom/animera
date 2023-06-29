@@ -98,7 +98,7 @@ export default {
   color: #18ffff;
   display: inline-block;
   font-family: MavenPro-Regular;
-  font-size: 50px;
+  font-size: 5.0rem;
   margin: 0;
   white-space: nowrap;
 }
@@ -106,7 +106,7 @@ export default {
 .about-us-achive {
   color: #18ffff;
   font-family: MavenPro-Regular;
-  font-size: 20px;
+  font-size: 2.0rem;
 }
 </style>
 
