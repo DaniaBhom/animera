@@ -4,37 +4,37 @@
   <v-toolbar-items>
     <v-btn color="#00FFFF">
       <router-link to="/">
-        <H2 style="color: #00ffff"><b>Home</b></H2>
+        <H5 style="color: #00ffff">Home</H5>
       </router-link>
     </v-btn>
 
     <v-btn color="#00FFFF">
       <router-link to="/about">
-        <H2><b>Sobre</b></H2>
+        <H5>Sobre</H5>
       </router-link>
     </v-btn>
 
     <v-btn color="#00FFFF">
       <router-link to="/services">
-        <H2><b>Serviços</b></H2>
+        <H5>Serviços</H5>
       </router-link>
     </v-btn>
 
     <v-btn color="#00FFFF">
       <router-link to="/budget">
-        <H2><b>Planos</b></H2>
+        <H5>Planos</H5>
       </router-link>
     </v-btn>
 
     <v-btn color="#00FFFF">
       <router-link to="/projects">
-        <H2><b>Projetos</b></H2>
+        <H5>Projetos</H5>
       </router-link>
     </v-btn>
 
     <v-btn color="#00FFFF">
       <router-link to="/contact">
-        <H2><b>Contato</b></H2>
+        <H5>Contato</H5>
       </router-link>
     </v-btn>
   </v-toolbar-items>
