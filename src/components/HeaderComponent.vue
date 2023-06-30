@@ -11,7 +11,7 @@
           </router-link>
         </v-toolbar-title>
         <v-spacer />
-        <v-btn class="icon1 " text> <v-icon>mdi-whatsapp</v-icon> +55 27 99706-9915 </v-btn>
+        <v-btn class="icon1 d-none d-sm-flex " text> <v-icon>mdi-whatsapp</v-icon> +55 27 99706-9915 </v-btn>
         <v-btn class="icon2" text> POR </v-btn>
         <v-btn class="icon3" text> EN </v-btn>
 <!--        <v-app-bar-nav-icon />
@@ -19,7 +19,7 @@
           <v-icon>mdi-magnify</v-icon>
         </v-btn>-->
       </v-toolbar>
-      <v-toolbar class="menu">
+      <v-toolbar class="menu d-none d-sm-flex">
         <v-spacer></v-spacer>
         <v-toolbar-items>
           <v-btn color="#00FFFF">

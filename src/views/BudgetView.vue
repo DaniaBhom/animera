@@ -30,7 +30,7 @@
         </p>
         <p class="block">
           <b
-            ><a href="../contact">Clique aqui</a> e entre em contato para saber
+            ><router-link to="/contact">Clique aqui</router-link> e entre em contato para saber
             mais sobre nossos serviços.
           </b>
         </p>

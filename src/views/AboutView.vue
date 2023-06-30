@@ -41,7 +41,7 @@
 
         <p class="block">
           <b
-            ><a href="../contact">Clique aqui</a> para entrar em contato e saber
+            ><router-link to="/contact">Clique aqui</router-link> para entrar em contato e saber
             sobre como podemos ajudar o seu negócio.
           </b>
         </p>
