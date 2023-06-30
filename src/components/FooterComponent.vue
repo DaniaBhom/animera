@@ -82,7 +82,7 @@
           src="../assets/imagesAnimera/logo/logo_site2.png" />
         </v-card>
         <v-divider/>
-        <v-card-text class="white--text d-flex d-sm-none">
+        <v-card-text class="copy2 white--text d-flex d-sm-none">
           <strong>Copyright©</strong> {{ new Date().getFullYear() }} —
           <strong>Animera Soluções Digitais</strong>
         </v-card-text>

@@ -1,112 +1,136 @@
+@media (min-width: 768px) {
 .heroBlock {
-    position: relative;
-    margin-top: 9.3rem;
-    width: 100%;
-    height: 100%;
-    
-    }
+  position: relative;
+  margin-top: 10rem;
+  width: 100%;
+  height: 100%;
+}
 
 .card {
-    opacity: 0.8;
-    width: 1000px;
-    height: 470px;
-   }
-   
+  opacity: 0.8;
+  width: 60.0rem;
+  height: 30.0rem;
+}
+
 .title0 {
-    color:#84FFFF;
-    position: relative;
-    left: center;
-    margin-top: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-style: bold;
-    font-size: 4.0rem;
-    
+  color: #84ffff;
+  position: relative;
+  left: center;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: bold;
+  font-size: 3.5rem;
 }
 .title1 {
-    color: #84FFFF;
-    position: relative;
-    left: center;
-    top: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-style: bold;
-    font-size: 4.0rem;
-    
+  color: #84ffff;
+  position: relative;
+  left: center;
+  top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: bold;
+  font-size: 3.5rem;
 }
 .title2 {
-    color:#00838F ;
-    position: relative;
-    left: center;
-    top: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-style: bold;
-    font-size: 2.0rem;
-    
+  color: #00838f;
+  position: relative;
+  left: center;
+  top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: bold;
+  font-size: 2rem;
 }
 .title3 {
-    color: #cccccc;
-    position: relative;
-    left: center;
-    top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: bold;
-    font-weight: 600;
-    font-size: 2.0rem;
-  
+  color: #cccccc;
+  position: relative;
+  left: center;
+  top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 2rem;
 }
 .button1 {
-    position: relative;
-    left: center;
-    top: 25px;
-    padding: 20px;
-    align-content: center;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 1.4rem;
+  position: relative;
+  left: center;
+  top: 50px;
+  padding: 20px;
+  align-content: center;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.4rem;
 }
-
+}
 /*Responsividade - xs - 480px - Mobile*/
-.title0_xs {
-    color:#84FFFF;
+/*breakpoint - 480px(max) - celphones*/
+@media (max-width: 768px) {
+  .heroBlock {
     position: relative;
-    left: center;
-    top: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-style: bold;
-    font-size: 6.5rem;
-    
-}
-.title1_xs {
-    color: #84FFFF;
-    position: relative;
-    left: center;
-    top: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-style: bold;
-    font-size: 6.5rem;
-}
+    margin-top: 10rem;
+    width: auto;
+    height: auto;
+  }
 
-.title3_xs {
-    color: #cccccc;
+  .card {
+    opacity:0.8;
+    width: 80%;
+    height: 480px;
+  }
+
+  .title0 {
+    color: #84ffff;
     position: relative;
     left: center;
-    top: 20px;
+    top: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: bold;
     font-weight: 600;
-    font-size: 4.0rem;
-}
-.button1_xs {
+    font-style: bold;
+    font-size: 2.1rem;
+  }
+
+  .title1 {
+    color: #84ffff;
     position: relative;
     left: center;
     top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 2.1rem;
+  }
+
+  .title2 {
+    color: #00838f;
+    position: relative;
+    left: center;
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 0.8rem;
+  }
+
+  .title3 {
+    color: #cccccc;
+    position: relative;
+    left: center;
+    top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  .button1 {
+    position: relative;
+    left: center;
+    top: 90px;
     padding: 20px;
     align-content: center;
     border-radius: 5px;
     text-align: center;
-    font-size: 2.0rem;
+    font-size: 1rem;
+  }
 }
+

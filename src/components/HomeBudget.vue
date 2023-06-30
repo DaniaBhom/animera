@@ -61,31 +61,31 @@
       <v-card class="container_xs">
         <table style="width: 100%" border="0px solid white">
           <tr align="center">
-            <th rowspan="1" style="width: 800px">
+            <th rowspan="1" style="width: 100%">
               <v-img
                 class="img1"
-                src="../assets/imagesAnimera/projects/projects.jpg"
+                src="../assets/imagesAnimera/budget/budget.jpg"
               />
             </th>
           </tr>
           <tr>
-            <td style="width: 800px">
+            <td style="width: 100%">
               <H1 class="title_xs">
                 <b>Orçamento</b>
               </H1>
             </td>
           </tr>
           <tr>
-            <td class="description_xs" style="width: 800px">
-              <b>
-                <p>
-                  Temos diversos planos que atendem projetos essenciais e avançados. Mas também olhamos para a necessidade particular da sua empresa.
-                </p>
-               <br/> 
-                <p>
-                  Caso tenha necessidades extras, como criação de logo ou identidade visual, e tráfego pago, oferecemos estes serviços separadamente. Entre em contato para fazer um orçamento personalizado.
-                </p>
-              </b>
+            <td class="description_xs" style="width: 100%">
+           
+              <p>
+                Temos diversos planos que atendem projetos essenciais e avançados. Mas também olhamos para a necessidade particular da sua empresa.
+              </p>
+              
+              <p>
+                Caso tenha necessidades extras, como criação de logo ou identidade visual, e tráfego pago, oferecemos estes serviços separadamente. Entre em contato para fazer um orçamento personalizado.
+              </p>
+        
             </td>
           </tr>
           <tr align="center">

@@ -1,7 +1,7 @@
 <template>
   <v-container >
     <div>
-      <v-toolbar class="navbar d-none d-sm-flex">
+      <v-toolbar class="navbar">
         <v-toolbar-title>
           <router-link to="/">
             <v-img
@@ -11,7 +11,7 @@
           </router-link>
         </v-toolbar-title>
         <v-spacer />
-        <v-btn class="icon1" text> <v-icon>mdi-whatsapp</v-icon> +55 27 99706-9915 </v-btn>
+        <v-btn class="icon1 " text> <v-icon>mdi-whatsapp</v-icon> +55 27 99706-9915 </v-btn>
         <v-btn class="icon2" text> POR </v-btn>
         <v-btn class="icon3" text> EN </v-btn>
 <!--        <v-app-bar-nav-icon />
@@ -19,7 +19,7 @@
           <v-icon>mdi-magnify</v-icon>
         </v-btn>-->
       </v-toolbar>
-      <v-toolbar class="menu d-none d-sm-flex">
+      <v-toolbar class="menu">
         <v-spacer></v-spacer>
         <v-toolbar-items>
           <v-btn color="#00FFFF">
@@ -60,38 +60,18 @@
         </v-toolbar-items>
       </v-toolbar>
     </div>
-    <div>
-      <v-toolbar class="navbar_xs d-flex d-sm-none">
-        <v-toolbar-title>
-          <router-link to="/">
-            <v-img
-              class="logo_xs"
-              src="../assets/imagesAnimera/logo/logo_site.png"
-            />
-          </router-link>
-        </v-toolbar-title>
-      </v-toolbar>
 
-      <v-toolbar class="d-flex d-sm-none">
-        <v-spacer></v-spacer>
-   
-        <ResponsiveBarComponent />
-      </v-toolbar>
-    </div>
   </v-container>
 </template>
 
 <script>
-import ResponsiveBarComponent from './ResponsiveBarComponent.vue';
+
 
 
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'HeaderComponent',
 
-  components: {
-    ResponsiveBarComponent,
-  },
 
   data: () => ({
     

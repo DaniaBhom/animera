@@ -18,7 +18,7 @@ cor5: #FFFFFF
   align-items: center;
   justify-content:space-between;
   width: 100%;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: auto;
   padding: 0;
   font-weight: 520px;
@@ -31,10 +31,9 @@ cor5: #FFFFFF
   align-items: center;
   justify-content: space-between;
   margin: auto;
-  padding: 10px;
-  width: 100%;
+  width: 1200px;
   height: 100%;
-  max-height: 150px;
+  max-height: 160px;
   background-color: black;
  }
 

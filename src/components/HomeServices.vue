@@ -38,9 +38,9 @@
                   </div>
                 </v-card-text>
 
-                <v-card-actions >
+                <v-card-actions class="alignbutton">
                   <router-link to="/services">
-                    <v-btn class="buttoncard" variant="flat">
+                    <v-btn class="buttoncard">
                       <b>Saiba Mais</b>
                     </v-btn>
                   </router-link>
@@ -54,6 +54,7 @@
     
     </v-container>
   </div>
+
 </template>
 
 <script>
@@ -78,7 +79,7 @@ export default {
           title: 'Sites Institucionais',
           subtitle: 'Subtitulo 5',
           description:
-            'Este modelo de site é o mais utilizado, que representa a sua empresa, os seus produtos e serviços. Atua como vitrine do seu negócio na web, conectando sua empresa a seu público.',
+            'Este modelo de site representa a sua empresa, os seus produtos e serviços. Atua como vitrine do seu negócio na web, conectando sua empresa a seu público.',
           // eslint-disable-next-line global-require
           src: require('../assets/imagesAnimera/solutions/siteinstitucional.jpg'),
         },

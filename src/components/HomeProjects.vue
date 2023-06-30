@@ -65,7 +65,7 @@
       <v-card class="container_xs">
         <table style="width: 100%" border="0px solid white">
           <tr align="center">
-            <th rowspan="1" style="width: 800px">
+            <th rowspan="1" style="width: 100%">
               <v-img
                 class="img1"
                 src="../assets/imagesAnimera/projects/projects.jpg"
@@ -73,21 +73,20 @@
             </th>
           </tr>
           <tr>
-            <td style="width: 800px">
+            <td style="width: 100%">
               <H1 class="title_xs">
                 <b>Projetos</b>
               </H1>
             </td>
           </tr>
           <tr>
-            <td class="description_xs" style="width: 800px">
+            <td class="description_xs" style="width: 100%">
            
                 <p>
                   A Animera é uma empresa recente, mas conta com experiência de
                   desenvolvimento, de mais de vinte anos, no mercado de design,
                   identidade visual e web design.
                 </p>
-                <br />
                 <p>
                   Conheça alguns dos projetos já desenvolvidos. E o que podemos
                   fazer pelo seu negócio.

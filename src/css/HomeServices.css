@@ -47,7 +47,11 @@
 
 .buttoncard {
   background-color: #00838f;
-  color: #ffffff;
-  width: 21.5rem;
-   
+  color: #FFFFFF;
+  width: 10.0rem;
+
+}
+
+.alignbutton {
+  margin:auto;
 }

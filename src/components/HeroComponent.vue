@@ -13,16 +13,17 @@
         :src="item.src"
         cover
       >
-        <v-row class="d-none d-sm-flex">
+        <v-row>
           <v-card
-            class="card d-flex align-center justify-center flex-wrap text-center ma-10 ml-auto mr-auto pa-16*"
+            class="card align-center justify-center flex-wrap text-center ma-10 ml-auto mr-auto pa-16*"
             background-color="black"
             elevation="4"
           >
             <div>
               <p class="title0">Conectando a sua empresa</p>
+              
               <p class="title1">ao mundo digital!</p>
-              <p class="title2">SPA (Single Page Applications)</p>
+              <p class="title2 ">SPA (Single Page Applications)</p>
               <p class="title3">
                 Conheça nossos serviços idealizados
                 <br />
@@ -38,32 +39,7 @@
 
           </v-card>
         </v-row>
-        <v-row class="d-flex d-sm-none">
-          <v-card
-            class="card d-flex align-center justify-center flex-wrap text-center ma-10 ml-auto mr-auto pa-5"
-            background-color="black"
-            elevation="4"
-          >
-            <div>
-              <p class="title0_xs">Conectando a sua empresa</p>
-              <p class="title1_xs">ao mundo digital!</p>
-              <p class="title3_xs">
-                Conheça nossos serviços idealizados
-                <br />
-                especialmente para o seu negócio.
-                <br />
-              </p>
-              <router-link to="/services">
-                <v-btn x-large class="button1_xs" color="purple-darken-3">
-                  <b> Acesse Agora</b>
-                </v-btn>
-              </router-link>
-              <br/>
-              <br/>
-            </div>
 
-          </v-card>
-        </v-row>
       </v-carousel-item>
     </v-carousel>
   </div>
