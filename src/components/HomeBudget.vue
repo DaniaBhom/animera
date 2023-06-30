@@ -1,6 +1,6 @@
 <!-- eslint-disable global-require -->
 <template>
- <div class="d-none d-sm-flex">
+ <div class="d-none d-sm-none d-md-flex d-lg-flex">
     <v-container fluid class="container_lg">
       <br /><br />
       <v-card flat class="fundocard">
@@ -55,7 +55,7 @@
       <br /><br />
     </v-container>
   </div>
-  <div class="d-flex d-sm-none">
+  <div class="d-flex d-sm-flex d-md-none d-lg-none">
     <v-container fluid class="container_lg">
       <br />
       <v-card class="container_xs">

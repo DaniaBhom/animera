@@ -16,23 +16,22 @@
     <div>
       <v-container>
         <p class="block">
-          <b>
+         
             Confira nossos planos abaixo. Temos a solução perfeita para o seu
             negócio. 
-          </b>
+         
         </p>
         <p class="block">
-          <b>
+          
             Após um briefing inicial realizado com o cliente, teremos condições de avaliar quais os serviços necessários e estipular um prazo de entrega assim como as condições do contrato. Oferecemos serviços complementares que sejam necessários para
             a criação do site, como Design Gráfico, Tratamento de Imagens, Copywriter, Dominio & Hospedagem, SEO, Manutenção Mensal (após a garantia de 6 meses)
             e outros.
-          </b>
+          
         </p>
         <p class="block">
-          <b
-            ><router-link to="/contact">Clique aqui</router-link> e entre em contato para saber
+          <router-link to="/contact">Clique aqui</router-link> e entre em contato para saber
             mais sobre nossos serviços.
-          </b>
+          
         </p>
 
         <br />

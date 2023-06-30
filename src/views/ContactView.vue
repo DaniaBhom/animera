@@ -12,8 +12,9 @@
         </v-row>
       </v-img>
     </div>
-    <v-container class="block">
-      <div>
+    <div>
+    <v-container>
+      <div class="block">
         <p>
           <b>
             Entre em contato para dúvidas, sugestões ou orçamento. Teremos
@@ -22,6 +23,7 @@
         </p>
       </div>
     </v-container>
+  </div>
     <v-container class="form">
       <Message v-show="msg" :msg="msg" />
       <div>

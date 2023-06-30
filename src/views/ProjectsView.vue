@@ -12,22 +12,18 @@
         </v-row>
       </v-img>
     </div>
+    <div>
     <v-container>
-     
       <div>
         <p class="block">
-          <b>
-            Podemos desenvolver seu projeto do zero, desde o planejamento, mockup figma, arte visual,
-            copywriter, execução, publicação e divulgação.
-          </b>
+          Podemos desenvolver seu projeto do zero, desde o planejamento, mockup figma, arte visual,
+          copywriter, execução, publicação e divulgação.
         </p>
         <p class="block">
-          <b>
-            Confira abaixo nossos últimos projetos:
-          </b>
+          Confira abaixo nossos últimos projetos:
         </p>
       </div>
-      <br />
+     
       <v-sheet
         elevation="12"
         max-width="1100"
@@ -154,6 +150,7 @@
 
       <br />
     </v-container>
+  </div>
   </v-content>
 </template>
 

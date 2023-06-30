@@ -14,20 +14,19 @@
     <div>
       <v-container>
         <p class="block">
-          <b>
+         
             Seja encontrado por clientes no momento em que eles pesquisarem pelo
             seu produto ou serviço na internet.
-          </b>
+         
         </p>
         <p class="block">
-          <b>
+       
             Temos o produto certo para você. Desde uma Landing Page para sua
             campanha de marketing, seu site institucional, ou seu E-commerce,
             entre outros, podemos ajudar você a estar presente no meio digital
             aproximando a sua empresa do seu cliente.
-          </b>
         </p>
-        <p class="block"><b> Confira abaixo nossos serviços. </b></p>
+        <p class="block">Confira abaixo nossos serviços: </p>
         <v-sheet
           elevation="12"
           max-width="1100"
@@ -46,7 +45,7 @@
               </v-col>
 
               <v-col cols="12" md="7">
-                <H3>Landing Page</H3>
+                <H4>Landing Page</H4>
                 <p class="block">
                   São páginas com tempo de vida útil limitado, criadas para uma
                   campanha de vendas, captação de leads ou divulgação de algum
@@ -77,7 +76,7 @@
               </v-col>
 
               <v-col cols="12" md="7">
-                <H3>Sites Institucionais</H3>
+                <H4>Sites Institucionais</H4>
                 <p class="block">
                   Este modelo de site é a vitrine da sua empresa. Conta a sua
                   história, quais os seus objetivos, e quais produtos ou
@@ -111,7 +110,7 @@
               </v-col>
 
               <v-col cols="12" md="7">
-                <H3>E-Commerce</H3>
+                <H4>E-Commerce</H4>
                 <p class="block">
                   Ter uma Loja Virtual é estar em contato com seu cliente 24
                   horas por dia, sete dias por semana e com maior alcance
@@ -145,7 +144,7 @@
               </v-col>
 
               <v-col cols="12" md="7">
-                <H3>Sistemas Web</H3>
+                <H4>Sistemas Web</H4>
                 <p class="block">
                   Sistemas são criados para um grupo especifico de usuários,
                   sejam funcionários de uma empresa, alunos de uma escola, de um
@@ -177,7 +176,7 @@
               </v-col>
 
               <v-col cols="12" md="7">
-                <H3>App Mobile</H3>
+                <H4>App Mobile</H4>
                 <p class="block">
                   Apps Mobile Criamos aplicativos personalizados para sua
                   empresa, de acordo com o seu negócio, com identidade visual
@@ -209,7 +208,7 @@
               </v-col>
 
               <v-col cols="12" md="7">
-                <H3>SEO</H3>
+                <H4>SEO</H4>
                 <p class="block">
                   SEO Após a publicação do seu site ou e-commerce, você precisa
                   ser encontrado. Em um mar de informações que é a internet, é
