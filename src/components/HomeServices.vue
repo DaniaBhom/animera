@@ -40,8 +40,10 @@
 
                 <v-card-actions class="alignbutton">
                   <router-link to="/services">
-                    <v-btn class="buttoncard">
-                      <b>Saiba Mais</b>
+                    <v-btn
+                     class="buttoncard"
+                     variant="text">
+                      <b>Saiba Mais >></b>
                     </v-btn>
                   </router-link>
                 </v-card-actions>
@@ -70,7 +72,7 @@ export default {
           title: 'Landing Pages',
           subtitle: 'Subtitulo 6',
           description:
-            'Páginas de vendas criadas especialmente para campanhas de marketing. Também podem ser utilizadas para um site institucional mais enxuto, com uma única pagina.',
+            'LPs são páginas de vendas criadas especialmente para campanhas de marketing. Também podem ser utilizadas para um site institucional mais enxuto, com uma única pagina.',
           // eslint-disable-next-line global-require
           src: require('../assets/imagesAnimera/solutions/landingpage.jpg'),
         },
@@ -79,7 +81,7 @@ export default {
           title: 'Sites Institucionais',
           subtitle: 'Subtitulo 5',
           description:
-            'Este modelo de site representa a sua empresa, os seus produtos e serviços. Atua como vitrine do seu negócio na web, conectando sua empresa a seu público.',
+            'Este modelo de site, é a apresentação da sua empresa, dos seus produtos ou serviços. Atua como vitrine do seu negócio na web, conectando sua empresa a seu público.',
           // eslint-disable-next-line global-require
           src: require('../assets/imagesAnimera/solutions/siteinstitucional.jpg'),
         },
@@ -88,7 +90,7 @@ export default {
           title: 'E-Commerce',
           subtitle: 'Subtitulo 4',
           description:
-            'As vantagens do comércio eletrônico são enormes. Você terá uma loja 24hrs e poderá realizar vendas em qualquer horário do dia para clientes de qualquer lugar do mundo.',
+            'No mundo globalizado as vantagens do comércio eletrônico são enormes. Você terá uma loja 24hrs e poderá realizar vendas em qualquer horário do dia para clientes de qualquer lugar do mundo.',
           // eslint-disable-next-line global-require
           src: require('../assets/imagesAnimera/solutions/Ecommerce2.jpg'),
         },
@@ -97,7 +99,7 @@ export default {
           title: 'Sistemas Web',
           subtitle: 'Subtitulo 1',
           description:
-            'Utilizando as principais tecnologias do mercado, como a SPA (Single Page Application), com Vue, Angular ou React, criamos Sistemas Web de alto desempenho, para todos os negócios.',
+            'Utilizando as principais tecnologias do mercado, com ferramentas profissionais e otimizadas, criamos Sistemas Web de alto desempenho,con responsividade e SEO para todos os negócios.',
           // eslint-disable-next-line global-require
           src: require('../assets/imagesAnimera/solutions/sistemasweb2.jpg'),
         },
