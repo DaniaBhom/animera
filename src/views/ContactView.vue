@@ -1,29 +1,29 @@
 <template>
   <v-content>
-
     <div>
       <v-img src="../assets/imagesAnimera/hero_/hero_1.jpg">
         <v-row align="end" class="lightbox pa-2 fill-height">
           <v-col>
             <v-container>
-              <div class="headline"><b>Contato</b></div>
+              <div class="headline d-none d-md-flex"><b>Contato</b></div>
             </v-container>
           </v-col>
         </v-row>
       </v-img>
     </div>
     <div>
-    <v-container>
-      <div class="block">
-        <p>
-          <b>
-            Entre em contato para dúvidas, sugestões ou orçamento. Teremos
-            prazer em atendê-lo. Aguarde nosso retorno!
-          </b>
-        </p>
-      </div>
-    </v-container>
-  </div>
+      <v-container>
+        <H5 class="block d-flex d-sm-flex d-lg-none"> Contato </H5>
+        <div class="block">
+          <p>
+            <b>
+              Entre em contato para dúvidas, sugestões ou orçamento. Teremos
+              prazer em atendê-lo. Aguarde nosso retorno!
+            </b>
+          </p>
+        </div>
+      </v-container>
+    </div>
     <v-container class="form">
       <Message v-show="msg" :msg="msg" />
       <div>
@@ -70,13 +70,10 @@
 <script>
 import { defineComponent } from 'vue';
 
-
 // Components
 
 export default defineComponent({
   name: 'ContactView',
-
-  
 });
 </script>
 

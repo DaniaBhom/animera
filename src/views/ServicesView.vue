@@ -5,7 +5,7 @@
         <v-row align="end" class="lightbox pa-2 fill-height">
           <v-col>
             <v-container>
-              <div class="headline"><b>Serviços</b></div>
+              <div class="headline d-none d-md-flex"><b>Serviços</b></div>
             </v-container>
           </v-col>
         </v-row>
@@ -13,20 +13,18 @@
     </div>
     <div>
       <v-container>
+        <H5 class="block"> Serviços </H5>
         <p class="block">
-         
-            Seja encontrado por clientes no momento em que eles pesquisarem pelo
-            seu produto ou serviço na internet.
-         
+          Seja encontrado por clientes no momento em que eles pesquisarem pelo
+          seu produto ou serviço na internet.
         </p>
         <p class="block">
-       
-            Temos o produto certo para você. Desde uma Landing Page para sua
-            campanha de marketing, seu site institucional, ou seu E-commerce,
-            entre outros, podemos ajudar você a estar presente no meio digital
-            aproximando a sua empresa do seu cliente.
+          Temos o produto certo para você. Desde uma Landing Page para sua
+          campanha de marketing, seu site institucional, ou seu E-commerce,
+          entre outros, podemos ajudar você a estar presente no meio digital
+          aproximando a sua empresa do seu cliente.
         </p>
-        <p class="block">Confira abaixo nossos serviços: </p>
+        <p class="block">Confira abaixo nossos serviços:</p>
         <v-sheet
           elevation="12"
           max-width="1100"

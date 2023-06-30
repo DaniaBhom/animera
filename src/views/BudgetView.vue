@@ -1,37 +1,36 @@
 <template>
   <v-content>
-
     <div>
       <v-img src="../assets/imagesAnimera/hero_/hero_1.jpg">
         <v-row align="end" class="lightbox pa-2 fill-height">
           <v-col>
             <v-container>
-              <div class="headline"><b>Planos</b></div>
+              <div class="headline d-none d-md-flex"><b>Planos</b></div>
             </v-container>
           </v-col>
         </v-row>
       </v-img>
     </div>
-   
+
     <div>
       <v-container>
+        <H5 class="block d-flex d-sm-flex d-lg-none"> Planos </H5>
         <p class="block">
-         
-            Confira nossos planos abaixo. Temos a solução perfeita para o seu
-            negócio. 
-         
+          Confira nossos planos abaixo. Temos a solução perfeita para o seu
+          negócio.
         </p>
         <p class="block">
-          
-            Após um briefing inicial realizado com o cliente, teremos condições de avaliar quais os serviços necessários e estipular um prazo de entrega assim como as condições do contrato. Oferecemos serviços complementares que sejam necessários para
-            a criação do site, como Design Gráfico, Tratamento de Imagens, Copywriter, Dominio & Hospedagem, SEO, Manutenção Mensal (após a garantia de 6 meses)
-            e outros.
-          
+          Após um briefing inicial realizado com o cliente, teremos condições de
+          avaliar quais os serviços necessários e estipular um prazo de entrega
+          assim como as condições do contrato. Oferecemos serviços
+          complementares que sejam necessários para a criação do site, como
+          Design Gráfico, Tratamento de Imagens, Copywriter, Dominio &
+          Hospedagem, SEO, Manutenção Mensal (após a garantia de 6 meses) e
+          outros.
         </p>
         <p class="block">
-          <router-link to="/contact">Clique aqui</router-link> e entre em contato para saber
-            mais sobre nossos serviços.
-          
+          <router-link to="/contact">Clique aqui</router-link> e entre em
+          contato para saber mais sobre nossos serviços.
         </p>
 
         <br />
@@ -57,20 +56,17 @@
         </v-col>
       </v-row>
     </div>
-
   </v-content>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
 
-
 // Components
 
 export default defineComponent({
   name: 'BudgetView',
 
- 
   data: () => ({
     show: false,
     items: [

@@ -6,7 +6,7 @@
           <router-link to="/">
             <v-img
               class="logo"
-              src="../assets/imagesAnimera/logo/logo_site.png"
+              src="../assets/imagesAnimera/logo/logo_site2.png"
             />
           </router-link>
         </v-toolbar-title>
@@ -64,7 +64,7 @@
           <router-link to="/">
             <v-img
               class="mx-auto logo"
-              src="../assets/imagesAnimera/logo/logo_site.png"
+              src="../assets/imagesAnimera/logo/logo_site2.png"
             />
           </router-link>
         </v-toolbar-title>
