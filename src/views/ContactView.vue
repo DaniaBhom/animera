@@ -36,7 +36,7 @@
           <input
             type="hidden"
             name="_next"
-            value="http://animera.netlify.app/contactsucess"
+            value="http://www.google.com.br"
           />
           <div class="input-container">
             <label for="name">Nome:</label>
