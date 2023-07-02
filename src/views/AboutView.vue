@@ -14,7 +14,7 @@
     </div>
     <div>
       <v-container>
-        <H5 class="block"> Sobre </H5>
+        <H5 class="block d-flex d-sm-flex d-lg-none"> Sobre </H5>
         <p class="block">
           A Animera Soluções Digitais é uma empresa voltada à Criação e
           Desenvolvimento de Websites, E-Commerce, Aplicações Web, Aplicativos

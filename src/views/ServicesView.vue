@@ -13,7 +13,7 @@
     </div>
     <div>
       <v-container>
-        <H5 class="block"> Serviços </H5>
+        <H5 class="block d-flex d-sm-flex d-lg-none"> Serviços </H5>
         <p class="block">
           Seja encontrado por clientes no momento em que eles pesquisarem pelo
           seu produto ou serviço na internet.
