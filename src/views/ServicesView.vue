@@ -208,9 +208,9 @@
               <v-col cols="12" md="7">
                 <H4>SEO</H4>
                 <p class="block">
-                  SEO Após a publicação do seu site ou e-commerce, você precisa
+                  Após a publicação do seu site ou Ecommerce, você precisa
                   ser encontrado. Em um mar de informações que é a internet, é
-                  fundamental que você conte comum bom rankeamento nos serviços
+                  fundamental que você conte com um bom rankeamento nos serviços
                   de pesquisa. Conheça nosso serviço de otimização para
                   buscadores. Seu site facilmente encontrado por mecanismos de
                   busca como o Google.
