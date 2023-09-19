@@ -41,9 +41,9 @@
             <tr style="height: 50px" align="right">
               <td>
                 <p class="font">
-                  Av. Beira Mar, 2368 - Guarapari - ES
+                  Rua Bento Gonçalves, 1374 
                   <br>
-                  Tel: +55 27 99706-9915
+                  Tel: +55 54 99611-9977
                   <br>
                   Email: db.animera@gmail.com
                 </p> 
