@@ -35,16 +35,23 @@ cor5: #FFFFFF
   height: 100%;
   max-height: 160px;
   background-color: black;
- }
+}
+
+.whats {
+  position: fixed;
+  bottom: 40px;
+  right: 100px;
+  z-index: 9999;
+}
 
 /*breakpoint - 480px(max) - celphones*/
 /*@media (max-width: 480px) {
-   
+
 }*/
 
 /*breakpoint - 480px - 768px - tablet*/
 /*@media (min-width: 480px) {
- 
+
 }*/
 
 /*breakpoint - 768px - 1024px - small screen or smaller laptops*/
